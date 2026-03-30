@@ -1,0 +1,4160 @@
+fileFormatVersion: 2
+guid: f53ed308c1b10624daf9334b2ed97606
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3419460251081527995
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_0
+  - first:
+      213: 6253768753566131423
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_1
+  - first:
+      213: 8278479902341671568
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_2
+  - first:
+      213: 998792180975848211
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_3
+  - first:
+      213: 7873250685781774909
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_4
+  - first:
+      213: -3180259353689486085
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_5
+  - first:
+      213: 3113217768177822698
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_6
+  - first:
+      213: 3280015266903701630
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_7
+  - first:
+      213: -1202421431406094423
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_8
+  - first:
+      213: -8827055665837091678
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_9
+  - first:
+      213: -2564470796344572819
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_10
+  - first:
+      213: 7443006022080149778
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_11
+  - first:
+      213: 8552649120516329824
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_12
+  - first:
+      213: 4502998339209929826
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_13
+  - first:
+      213: -1998272377884590910
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_14
+  - first:
+      213: 4861236722792974086
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_15
+  - first:
+      213: -4503514103672760043
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_16
+  - first:
+      213: 6675075807323452294
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_17
+  - first:
+      213: 1719111800169863623
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_18
+  - first:
+      213: 3587909885787613232
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_19
+  - first:
+      213: -8572667431386914714
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_20
+  - first:
+      213: 308997806172585412
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_21
+  - first:
+      213: 6664834316260726070
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_22
+  - first:
+      213: -6245095546313394579
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_23
+  - first:
+      213: 3058427429859746086
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_24
+  - first:
+      213: -5923697254224288809
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_25
+  - first:
+      213: 7981227203492855391
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_26
+  - first:
+      213: 5863885095283190958
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_27
+  - first:
+      213: 5473373053841857919
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_28
+  - first:
+      213: -3976457748922855309
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_29
+  - first:
+      213: 7433501398568131602
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_30
+  - first:
+      213: -7675360512193275801
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_31
+  - first:
+      213: 2988893062304229114
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_32
+  - first:
+      213: -4980338645495273645
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_33
+  - first:
+      213: -7794958144042234615
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_34
+  - first:
+      213: 6870365890264012902
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_35
+  - first:
+      213: 1917961717219226443
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_36
+  - first:
+      213: -9136407477433399177
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_37
+  - first:
+      213: 6326107780444184445
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_38
+  - first:
+      213: -2764638857581459731
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_39
+  - first:
+      213: -7335029120119667502
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_40
+  - first:
+      213: -4164816426617704963
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_41
+  - first:
+      213: 931492917580229437
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_42
+  - first:
+      213: 353963820760985032
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_43
+  - first:
+      213: 2972896493910478548
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_44
+  - first:
+      213: 7730764959489987964
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_45
+  - first:
+      213: 4254626711910530245
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_46
+  - first:
+      213: -102576127023882148
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_47
+  - first:
+      213: 5121801465687807116
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_48
+  - first:
+      213: -7332843923202395703
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_49
+  - first:
+      213: -3229086990242709718
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_50
+  - first:
+      213: -1731140920079077390
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_51
+  - first:
+      213: 2419449157827958715
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_52
+  - first:
+      213: -9184720411987511304
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_53
+  - first:
+      213: 7903687981290606509
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_54
+  - first:
+      213: 937789110772128245
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_55
+  - first:
+      213: 6088892515011177857
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_56
+  - first:
+      213: -6045905579271812900
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_57
+  - first:
+      213: -5577231789747152211
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_58
+  - first:
+      213: 704540561316245097
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_59
+  - first:
+      213: -4812724761148767129
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_60
+  - first:
+      213: 2883223594029971461
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_61
+  - first:
+      213: -4933179923823995220
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_62
+  - first:
+      213: -1397100333780205335
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_63
+  - first:
+      213: 8404284363150483321
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_64
+  - first:
+      213: 5843030849545027104
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_65
+  - first:
+      213: 5887402873818271251
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_66
+  - first:
+      213: 1851421956945413961
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_67
+  - first:
+      213: 7100490477306577545
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_68
+  - first:
+      213: -8588976891064665850
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_69
+  - first:
+      213: 5512982246167439203
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_70
+  - first:
+      213: -6961514531058319198
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_71
+  - first:
+      213: 7065146289975971135
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_72
+  - first:
+      213: 2305033918902782058
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_73
+  - first:
+      213: -6954215801527811286
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_74
+  - first:
+      213: 1993281034429846000
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_75
+  - first:
+      213: -6451349281819665176
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_76
+  - first:
+      213: 4089886983759774704
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_77
+  - first:
+      213: 6683373486604410592
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_78
+  - first:
+      213: 4533458487297003758
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_79
+  - first:
+      213: 3943151071412706442
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_80
+  - first:
+      213: -1491430743700921184
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_81
+  - first:
+      213: 7206416390743158273
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_82
+  - first:
+      213: -922404006977960467
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_83
+  - first:
+      213: 6897970856980617879
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_84
+  - first:
+      213: 2725037584739708154
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_85
+  - first:
+      213: -3464593986078698220
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_86
+  - first:
+      213: 427941290371021055
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_87
+  - first:
+      213: 726043633321561511
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_88
+  - first:
+      213: -1699479303879069733
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_89
+  - first:
+      213: 5652593804011450378
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_90
+  - first:
+      213: -7043480981159509777
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_91
+  - first:
+      213: 507882020018217724
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_92
+  - first:
+      213: -7998808203780078472
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_93
+  - first:
+      213: 5202500923727606569
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_94
+  - first:
+      213: -8568445100577361666
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_95
+  - first:
+      213: -8577375689918048677
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_96
+  - first:
+      213: 5747654458484826329
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_97
+  - first:
+      213: 3647938873400377780
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_98
+  - first:
+      213: -5376741476057449463
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_99
+  - first:
+      213: -4147909702808254345
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_100
+  - first:
+      213: -7673502597492488220
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_101
+  - first:
+      213: 4065141713737969667
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_102
+  - first:
+      213: 3375376982206655096
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_103
+  - first:
+      213: -7201631736482266269
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_104
+  - first:
+      213: 1885054456401019891
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_105
+  - first:
+      213: -1686144125563893828
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_106
+  - first:
+      213: 7648198364893788121
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_107
+  - first:
+      213: 4504617283092515491
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_108
+  - first:
+      213: -5277281085872878916
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_109
+  - first:
+      213: 1771430543060742108
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_110
+  - first:
+      213: 4479177030920731790
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_111
+  - first:
+      213: 2458957992202453958
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_112
+  - first:
+      213: -4738492313593251668
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_113
+  - first:
+      213: 6254765850586235396
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_114
+  - first:
+      213: 2459963635984647099
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_115
+  - first:
+      213: -2784781011971177021
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_116
+  - first:
+      213: -6112220044004959077
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_117
+  - first:
+      213: 886246863540119833
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_118
+  - first:
+      213: 645604195459432213
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_119
+  - first:
+      213: 5282271435933257427
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_120
+  - first:
+      213: -3649065485015252000
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_121
+  - first:
+      213: 2416541926770491160
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_122
+  - first:
+      213: -4739351341861254375
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_123
+  - first:
+      213: -2293578863323639521
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_124
+  - first:
+      213: 3027837739072195236
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_125
+  - first:
+      213: 8620692164966104993
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_126
+  - first:
+      213: 5371362290256162957
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_127
+  - first:
+      213: 5805739159292429905
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_128
+  - first:
+      213: -5784963660722699271
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_129
+  - first:
+      213: -4601268626580707247
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_130
+  - first:
+      213: -1634322091832944995
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_131
+  - first:
+      213: -2606381181313396887
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_132
+  - first:
+      213: 2292844171178193820
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_133
+  - first:
+      213: 6761769395055711189
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_134
+  - first:
+      213: -7993654093583717275
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_135
+  - first:
+      213: -7037577205597531126
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_136
+  - first:
+      213: -3232012049808993786
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_137
+  - first:
+      213: -475270784611986505
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_138
+  - first:
+      213: -8730270985871999482
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_139
+  - first:
+      213: -4537400550754761195
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_140
+  - first:
+      213: 535846884886114614
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_141
+  - first:
+      213: -6224293833449907129
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_142
+  - first:
+      213: -8610904807045668003
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_143
+  - first:
+      213: 2230159424963684779
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_144
+  - first:
+      213: 1330702812161868551
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_145
+  - first:
+      213: 2641902288969020201
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_146
+  - first:
+      213: -1803558170839208253
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_147
+  - first:
+      213: -1717897754618783601
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_148
+  - first:
+      213: 6492153097796263013
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_149
+  - first:
+      213: -6809918917506557729
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_150
+  - first:
+      213: -4469455842907985465
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_151
+  - first:
+      213: -7318894582470602244
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_152
+  - first:
+      213: 9061540274118050575
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_153
+  - first:
+      213: -5778393094677216200
+    second: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_154
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2022
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb258453bfc547f20800000000000000
+      internalID: 3419460251081527995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1982
+        width: 116
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd42fb72c89d9c650800000000000000
+      internalID: 6253768753566131423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1774
+        width: 243
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a29432c9113e270800000000000000
+      internalID: 8278479902341671568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1775
+        width: 236
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bc08f523c6cdd00800000000000000
+      internalID: 998792180975848211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1939
+        width: 434
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d329f91d8c7634d60800000000000000
+      internalID: 7873250685781774909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_5
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1721
+        width: 209
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc89b1b7f27dd3d0800000000000000
+      internalID: -3180259353689486085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_6
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1871
+        width: 626
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb6cacc01f543b20800000000000000
+      internalID: 3113217768177822698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_7
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1757
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7837a9c184f48d20800000000000000
+      internalID: 3280015266903701630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1661
+        width: 208
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a719be2414205fe0800000000000000
+      internalID: -1202421431406094423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_9
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1695
+        width: 158
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a45e21c3afff7580800000000000000
+      internalID: -8827055665837091678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_10
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1693
+        width: 136
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64c40bd56b296cd0800000000000000
+      internalID: -2564470796344572819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_11
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1782
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193e27da8eda4760800000000000000
+      internalID: 7443006022080149778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1523
+        width: 473
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061deecaf0d11b670800000000000000
+      internalID: 8552649120516329824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1715
+        width: 7
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26428c0b12ddd7e30800000000000000
+      internalID: 4502998339209929826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_14
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1604
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccb6bf0cd5b444e0800000000000000
+      internalID: -1998272377884590910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_15
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1603
+        width: 151
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607c82f1b05967340800000000000000
+      internalID: 4861236722792974086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_16
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1440
+        width: 169
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5199f9988cd4081c0800000000000000
+      internalID: -4503514103672760043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1703
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6837158a412a2ac50800000000000000
+      internalID: 6675075807323452294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_18
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1685
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c99e42f2138bd710800000000000000
+      internalID: 1719111800169863623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_19
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1598
+        width: 389
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038ab741801dac130800000000000000
+      internalID: 3587909885787613232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1673
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6606f9e1464c70980800000000000000
+      internalID: -8572667431386914714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_21
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1440
+        width: 208
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdba491ed7c94400800000000000000
+      internalID: 308997806172585412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_22
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1655
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635dd83bf7f3e7c50800000000000000
+      internalID: 6664834316260726070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_23
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1631
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66bd9540b6f459a0800000000000000
+      internalID: -6245095546313394579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_24
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1649
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621e9101b87b17a20800000000000000
+      internalID: 3058427429859746086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1392
+        width: 259
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3210d7bbccacda0800000000000000
+      internalID: -5923697254224288809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_26
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1627
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e30efead303ce60800000000000000
+      internalID: 7981227203492855391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1613
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacef0c0d64b06150800000000000000
+      internalID: 5863885095283190958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_28
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1615
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d50751bc355fb40800000000000000
+      internalID: 5473373053841857919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_29
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1595
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3709a1bdeb8c0d8c0800000000000000
+      internalID: -3976457748922855309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_30
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1493
+        width: 300
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cd50b332a192760800000000000000
+      internalID: 7433501398568131602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1368
+        width: 153
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768d8aba744ab7590800000000000000
+      internalID: -7675360512193275801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_32
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1367
+        width: 160
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6e542876eaa7920800000000000000
+      internalID: 2988893062304229114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_33
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1505
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357aa1e836842eab0800000000000000
+      internalID: -4980338645495273645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_34
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1439
+        width: 136
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d03511edeb2d390800000000000000
+      internalID: -7794958144042234615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_35
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1411
+        width: 394
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668952e5061785f50800000000000000
+      internalID: 6870365890264012902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_36
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1469
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4376af1508fd9a10800000000000000
+      internalID: 1917961717219226443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_37
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1430
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7780c585ec5f43180800000000000000
+      internalID: -9136407477433399177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_38
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1439
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd5385289dac750800000000000000
+      internalID: 6326107780444184445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_39
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1439
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de68d915b9702a9d0800000000000000
+      internalID: -2764638857581459731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_40
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1439
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d40f1eb0edb43a90800000000000000
+      internalID: -7335029120119667502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_41
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1397
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd6db0b6899336c0800000000000000
+      internalID: -4164816426617704963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_42
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1217
+        width: 260
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b692f8fd35dec00800000000000000
+      internalID: 931492917580229437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_43
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1427
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd6cc7383889e400800000000000000
+      internalID: 353963820760985032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_44
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1290
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dec9813c99d14920800000000000000
+      internalID: 2972896493910478548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1391
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75107475c1394b60800000000000000
+      internalID: 7730764959489987964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_46
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1391
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccb057d3787b0b30800000000000000
+      internalID: 4254626711910530245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_47
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1367
+        width: 6
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c506e425e83939ef0800000000000000
+      internalID: -102576127023882148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_48
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1169
+        width: 155
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84956ceb4b441740800000000000000
+      internalID: 5121801465687807116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_49
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1289
+        width: 6
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1b32c8d418c3a90800000000000000
+      internalID: -7332843923202395703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1251
+        width: 462
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f7fb5ad7aff23d0800000000000000
+      internalID: -3229086990242709718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_51
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1313
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff2b825180c9f7e0800000000000000
+      internalID: -1731140920079077390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_52
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1302
+        width: 624
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb71474b03c939120800000000000000
+      internalID: 2419449157827958715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_53
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1243
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f77432b271598080800000000000000
+      internalID: -9184720411987511304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_54
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1241
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafc95ce75a8fad60800000000000000
+      internalID: 7903687981290606509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_55
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1247
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f95dc54a32b30d00800000000000000
+      internalID: 937789110772128245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_56
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1237
+        width: 624
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18da6c86b77108450800000000000000
+      internalID: 6088892515011177857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_57
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1136
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd883f188e0a81ca0800000000000000
+      internalID: -6045905579271812900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 984
+        width: 277
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daada169c31b992b0800000000000000
+      internalID: -5577231789747152211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_59
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1217
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eeb1f58e707c900800000000000000
+      internalID: 704540561316245097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_60
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1223
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76440022454c53db0800000000000000
+      internalID: -4812724761148767129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_61
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 978
+        width: 192
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5087e223594430820800000000000000
+      internalID: 2883223594029971461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_62
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1175
+        width: 7
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6d1631ff2d98bb0800000000000000
+      internalID: -4933179923823995220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_63
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 977
+        width: 269
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0837906a08c9ce0800000000000000
+      internalID: -1397100333780205335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_64
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1209
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f54f8b91402a470800000000000000
+      internalID: 8404284363150483321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_65
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 983
+        width: 232
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eb7c6999d961150800000000000000
+      internalID: 5843030849545027104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_66
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1211
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e4d8f88b144b150800000000000000
+      internalID: 5887402873818271251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_67
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 987
+        width: 183
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9470719e57291b910800000000000000
+      internalID: 1851421956945413961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_68
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1181
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98207e618720a8260800000000000000
+      internalID: 7100490477306577545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_69
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1157
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6093d002603ddc880800000000000000
+      internalID: -8588976891064665850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_70
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36768d3d42c028c40800000000000000
+      internalID: 5512982246167439203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_71
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 891
+        width: 125
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a08c8dea6bb36f90800000000000000
+      internalID: -6961514531058319198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_72
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 881
+        width: 152
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dcf243e117c0260800000000000000
+      internalID: 7065146289975971135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_73
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 988
+        width: 123
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a684d6bf2202dff10800000000000000
+      internalID: 2305033918902782058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_74
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23c682d299ad7f90800000000000000
+      internalID: -6954215801527811286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_75
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1103
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1d6ba3a8e89ab10800000000000000
+      internalID: 1993281034429846000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_76
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 987
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecda2742043876a0800000000000000
+      internalID: -6451349281819665176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_77
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 989
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3ce76ea8232c830800000000000000
+      internalID: 4089886983759774704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 971
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eed15aa6cc10cc50800000000000000
+      internalID: 6683373486604410592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_79
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 901
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0515399741aee30800000000000000
+      internalID: 4533458487297003758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_80
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 860
+        width: 641
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c514bf103e8b630800000000000000
+      internalID: 3943151071412706442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_81
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 893
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a42c9af3af5d4be0800000000000000
+      internalID: -1491430743700921184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_82
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 971
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e6cc1b685520460800000000000000
+      internalID: 7206416390743158273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_83
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 887
+        width: 392
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de58ea85176f233f0800000000000000
+      internalID: -922404006977960467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_84
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 857
+        width: 125
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a935982f38abf50800000000000000
+      internalID: 6897970856980617879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 901
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcaff5de3741d520800000000000000
+      internalID: 2725037584739708154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_86
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 623
+        width: 260
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41513d8302a4befc0800000000000000
+      internalID: -3464593986078698220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_87
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 877
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff87945165a50f500800000000000000
+      internalID: 427941290371021055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_88
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 823
+        width: 624
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adc09776dc631a00800000000000000
+      internalID: 726043633321561511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_89
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 839
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfe82dc39c3a68e0800000000000000
+      internalID: -1699479303879069733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_90
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 851
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a003da3bd1c027e40800000000000000
+      internalID: 5652593804011450378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_91
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 857
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe084c79d57804e90800000000000000
+      internalID: -7043480981159509777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_92
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 736
+        width: 641
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf26efe910c5c0700800000000000000
+      internalID: 507882020018217724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_93
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 652
+        width: 224
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874453371568ef090800000000000000
+      internalID: -7998808203780078472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_94
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 579
+        width: 155
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923fc6ea60ff23840800000000000000
+      internalID: 5202500923727606569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_95
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 803
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef076ae1494c61980800000000000000
+      internalID: -8568445100577361666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_96
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 795
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b561d51414a07f880800000000000000
+      internalID: -8577375689918048677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_97
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 713
+        width: 132
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0ada11745c3cf40800000000000000
+      internalID: 5747654458484826329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_98
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 581
+        width: 145
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14e57e31510a230800000000000000
+      internalID: 3647938873400377780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_99
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 581
+        width: 152
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c7c7e5d1af165b0800000000000000
+      internalID: -5376741476057449463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_100
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 791
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778c7b31a1aaf66c0800000000000000
+      internalID: -4147909702808254345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_101
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 791
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e74c652b0e328590800000000000000
+      internalID: -7673502597492488220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_102
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 725
+        width: 218
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30079f0c9d84a6830800000000000000
+      internalID: 4065141713737969667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_103
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 449
+        width: 280
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a25775b7fb7de20800000000000000
+      internalID: 3375376982206655096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_104
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 725
+        width: 128
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3638bcf671aae0c90800000000000000
+      internalID: -7201631736482266269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_105
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 713
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3cc086a0f092a10800000000000000
+      internalID: 1885054456401019891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_106
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 703
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb707a3f9dc9998e0800000000000000
+      internalID: -1686144125563893828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_107
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 585
+        width: 166
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7b73714ebd32a60800000000000000
+      internalID: 7648198364893788121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_108
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 671
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa80df6d8d938e30800000000000000
+      internalID: 4504617283092515491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_109
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 615
+        width: 222
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbac8a800d453c6b0800000000000000
+      internalID: -5277281085872878916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_110
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 452
+        width: 194
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa96781b2659810800000000000000
+      internalID: 1771430543060742108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_111
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 611
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c7e1627cb392e30800000000000000
+      internalID: 4479177030920731790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_112
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 647
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3c5da0449ff1220800000000000000
+      internalID: 2458957992202453958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_113
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 614
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8fa5da85e7d3eb0800000000000000
+      internalID: -4738492313593251668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_114
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 647
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402cf65e6646dc650800000000000000
+      internalID: 6254765850586235396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_115
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 641
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb34e3bb4eb832220800000000000000
+      internalID: 2459963635984647099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_116
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 617
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5843c8c687a59d0800000000000000
+      internalID: -2784781011971177021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 501
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cdf0001480d2ba0800000000000000
+      internalID: -6112220044004959077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_118
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 579
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919ec9ca3d49c4c00800000000000000
+      internalID: 886246863540119833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_119
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 509
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f7cdf5895a5f800800000000000000
+      internalID: 645604195459432213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_120
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 517
+        width: 647
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de8ef162e56e4940800000000000000
+      internalID: 5282271435933257427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_121
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 509
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e30783664aeb5dc0800000000000000
+      internalID: -3649065485015252000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_122
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 447
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f3ef93418498120800000000000000
+      internalID: 2416541926770491160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_123
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 447
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bc69290117a3eb0800000000000000
+      internalID: -4739351341861254375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_124
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 450
+        width: 627
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11104bfc229b20e0800000000000000
+      internalID: -2293578863323639521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_125
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 343
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa8beaa16a050a20800000000000000
+      internalID: 3027837739072195236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 491
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af3cc289d9d2a770800000000000000
+      internalID: 8620692164966104993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_127
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 288
+        width: 508
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80b5a65b89ea8a40800000000000000
+      internalID: 5371362290256162957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_128
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 407
+        width: 6
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15643385101229050800000000000000
+      internalID: 5805739159292429905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 489
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3841c533ea7bfa0800000000000000
+      internalID: -5784963660722699271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_130
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 359
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158e18c00920520c0800000000000000
+      internalID: -4601268626580707247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_131
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 339
+        width: 141
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9659bb67b8b159e0800000000000000
+      internalID: -1634322091832944995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_132
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 323
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f4d82ff1644dbd0800000000000000
+      internalID: -2606381181313396887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_133
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 277
+        width: 627
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93b66c20a1d1df10800000000000000
+      internalID: 2292844171178193820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_134
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3576d7071a6dd50800000000000000
+      internalID: 6761769395055711189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_135
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 281
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c689e34f5d01190800000000000000
+      internalID: -7993654093583717275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 413
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0419f471d0855e90800000000000000
+      internalID: -7037577205597531126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_137
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 221
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6025a552a269523d0800000000000000
+      internalID: -3232012049808993786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_138
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 212
+        width: 624
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3d41f4dbf7769f0800000000000000
+      internalID: -475270784611986505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_139
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 203
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e33361bc8d7d680800000000000000
+      internalID: -8730270985871999482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_140
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2
+        width: 204
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c9904d3ae701c0800000000000000
+      internalID: -4537400550754761195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_141
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 41
+        width: 8
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631f2ab17e5bf6700800000000000000
+      internalID: 535846884886114614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_142
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c50977cbdde99a0800000000000000
+      internalID: -6224293833449907129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_143
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 155
+        width: 206
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53e65553bbef7880800000000000000
+      internalID: -8610904807045668003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_144
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 0
+        width: 262
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9237d5e2e13fe10800000000000000
+      internalID: 2230159424963684779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_145
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 0
+        width: 152
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7038584482b977210800000000000000
+      internalID: 1330702812161868551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_146
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233a49622ce9a420800000000000000
+      internalID: 2641902288969020201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_147
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 48
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce2067366978f6e0800000000000000
+      internalID: -1803558170839208253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_148
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 155
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88918f081dc828e0800000000000000
+      internalID: -1717897754618783601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_149
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 155
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c199578d2c81a50800000000000000
+      internalID: 6492153097796263013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_150
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 0
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd81fc433de4e71a0800000000000000
+      internalID: -6809918917506557729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_151
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 0
+        width: 152
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9ec20579d49f1c0800000000000000
+      internalID: -4469455842907985465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_152
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf11f4787201e6a90800000000000000
+      internalID: -7318894582470602244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_153
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 0
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03c3b48ede01cd70800000000000000
+      internalID: 9061540274118050575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_154
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 35
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c13b78160fcfa0800000000000000
+      internalID: -5778393094677216200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_0: 3419460251081527995
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_1: 6253768753566131423
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_10: -2564470796344572819
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_100: -4147909702808254345
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_101: -7673502597492488220
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_102: 4065141713737969667
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_103: 3375376982206655096
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_104: -7201631736482266269
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_105: 1885054456401019891
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_106: -1686144125563893828
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_107: 7648198364893788121
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_108: 4504617283092515491
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_109: -5277281085872878916
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_11: 7443006022080149778
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_110: 1771430543060742108
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_111: 4479177030920731790
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_112: 2458957992202453958
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_113: -4738492313593251668
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_114: 6254765850586235396
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_115: 2459963635984647099
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_116: -2784781011971177021
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_117: -6112220044004959077
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_118: 886246863540119833
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_119: 645604195459432213
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_12: 8552649120516329824
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_120: 5282271435933257427
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_121: -3649065485015252000
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_122: 2416541926770491160
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_123: -4739351341861254375
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_124: -2293578863323639521
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_125: 3027837739072195236
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_126: 8620692164966104993
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_127: 5371362290256162957
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_128: 5805739159292429905
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_129: -5784963660722699271
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_13: 4502998339209929826
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_130: -4601268626580707247
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_131: -1634322091832944995
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_132: -2606381181313396887
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_133: 2292844171178193820
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_134: 6761769395055711189
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_135: -7993654093583717275
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_136: -7037577205597531126
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_137: -3232012049808993786
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_138: -475270784611986505
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_139: -8730270985871999482
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_14: -1998272377884590910
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_140: -4537400550754761195
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_141: 535846884886114614
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_142: -6224293833449907129
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_143: -8610904807045668003
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_144: 2230159424963684779
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_145: 1330702812161868551
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_146: 2641902288969020201
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_147: -1803558170839208253
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_148: -1717897754618783601
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_149: 6492153097796263013
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_15: 4861236722792974086
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_150: -6809918917506557729
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_151: -4469455842907985465
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_152: -7318894582470602244
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_153: 9061540274118050575
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_154: -5778393094677216200
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_16: -4503514103672760043
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_17: 6675075807323452294
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_18: 1719111800169863623
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_19: 3587909885787613232
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_2: 8278479902341671568
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_20: -8572667431386914714
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_21: 308997806172585412
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_22: 6664834316260726070
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_23: -6245095546313394579
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_24: 3058427429859746086
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_25: -5923697254224288809
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_26: 7981227203492855391
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_27: 5863885095283190958
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_28: 5473373053841857919
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_29: -3976457748922855309
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_3: 998792180975848211
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_30: 7433501398568131602
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_31: -7675360512193275801
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_32: 2988893062304229114
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_33: -4980338645495273645
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_34: -7794958144042234615
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_35: 6870365890264012902
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_36: 1917961717219226443
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_37: -9136407477433399177
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_38: 6326107780444184445
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_39: -2764638857581459731
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_4: 7873250685781774909
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_40: -7335029120119667502
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_41: -4164816426617704963
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_42: 931492917580229437
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_43: 353963820760985032
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_44: 2972896493910478548
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_45: 7730764959489987964
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_46: 4254626711910530245
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_47: -102576127023882148
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_48: 5121801465687807116
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_49: -7332843923202395703
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_5: -3180259353689486085
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_50: -3229086990242709718
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_51: -1731140920079077390
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_52: 2419449157827958715
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_53: -9184720411987511304
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_54: 7903687981290606509
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_55: 937789110772128245
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_56: 6088892515011177857
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_57: -6045905579271812900
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_58: -5577231789747152211
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_59: 704540561316245097
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_6: 3113217768177822698
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_60: -4812724761148767129
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_61: 2883223594029971461
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_62: -4933179923823995220
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_63: -1397100333780205335
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_64: 8404284363150483321
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_65: 5843030849545027104
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_66: 5887402873818271251
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_67: 1851421956945413961
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_68: 7100490477306577545
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_69: -8588976891064665850
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_7: 3280015266903701630
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_70: 5512982246167439203
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_71: -6961514531058319198
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_72: 7065146289975971135
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_73: 2305033918902782058
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_74: -6954215801527811286
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_75: 1993281034429846000
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_76: -6451349281819665176
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_77: 4089886983759774704
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_78: 6683373486604410592
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_79: 4533458487297003758
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_8: -1202421431406094423
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_80: 3943151071412706442
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_81: -1491430743700921184
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_82: 7206416390743158273
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_83: -922404006977960467
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_84: 6897970856980617879
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_85: 2725037584739708154
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_86: -3464593986078698220
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_87: 427941290371021055
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_88: 726043633321561511
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_89: -1699479303879069733
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_9: -8827055665837091678
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_90: 5652593804011450378
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_91: -7043480981159509777
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_92: 507882020018217724
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_93: -7998808203780078472
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_94: 5202500923727606569
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_95: -8568445100577361666
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_96: -8577375689918048677
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_97: 5747654458484826329
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_98: 3647938873400377780
+      sactx-4-2048x2048-ASTC 6x6-InGameMaterials-3e20dc72_99: -5376741476057449463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

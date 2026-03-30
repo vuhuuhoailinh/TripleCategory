@@ -1,0 +1,1846 @@
+fileFormatVersion: 2
+guid: f8a83ed2fce038440917d0a8cd82f987
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3576669653758674488
+    second: LilitaOne-Regular Atlas_11_0
+  - first:
+      213: -2290156154271381120
+    second: LilitaOne-Regular Atlas_11_1
+  - first:
+      213: 6184827457289763722
+    second: LilitaOne-Regular Atlas_11_2
+  - first:
+      213: 8885279022061723321
+    second: LilitaOne-Regular Atlas_11_3
+  - first:
+      213: -7732027020729430644
+    second: LilitaOne-Regular Atlas_11_4
+  - first:
+      213: 3318199383790557064
+    second: LilitaOne-Regular Atlas_11_5
+  - first:
+      213: 5971443773736555453
+    second: LilitaOne-Regular Atlas_11_6
+  - first:
+      213: -2311377630628199025
+    second: LilitaOne-Regular Atlas_11_7
+  - first:
+      213: 4398217574135238944
+    second: LilitaOne-Regular Atlas_11_8
+  - first:
+      213: -1987192677616151547
+    second: LilitaOne-Regular Atlas_11_9
+  - first:
+      213: -6665903904788358911
+    second: LilitaOne-Regular Atlas_11_10
+  - first:
+      213: 1257867293636596963
+    second: LilitaOne-Regular Atlas_11_11
+  - first:
+      213: -2347768243914848117
+    second: LilitaOne-Regular Atlas_11_12
+  - first:
+      213: 2845965410737472595
+    second: LilitaOne-Regular Atlas_11_13
+  - first:
+      213: -1955116221796729309
+    second: LilitaOne-Regular Atlas_11_14
+  - first:
+      213: 8531027927632296355
+    second: LilitaOne-Regular Atlas_11_15
+  - first:
+      213: -842559114546442866
+    second: LilitaOne-Regular Atlas_11_16
+  - first:
+      213: -1122572895091065519
+    second: LilitaOne-Regular Atlas_11_17
+  - first:
+      213: -2610776661788191497
+    second: LilitaOne-Regular Atlas_11_18
+  - first:
+      213: 2103151269928747489
+    second: LilitaOne-Regular Atlas_11_19
+  - first:
+      213: -1503084584761671719
+    second: LilitaOne-Regular Atlas_11_20
+  - first:
+      213: 8596391908965788977
+    second: LilitaOne-Regular Atlas_11_21
+  - first:
+      213: -4416093894265399430
+    second: LilitaOne-Regular Atlas_11_22
+  - first:
+      213: 2533077481590872425
+    second: LilitaOne-Regular Atlas_11_23
+  - first:
+      213: 8704049129515977724
+    second: LilitaOne-Regular Atlas_11_24
+  - first:
+      213: 2308765500971904075
+    second: LilitaOne-Regular Atlas_11_25
+  - first:
+      213: 1022969374676658472
+    second: LilitaOne-Regular Atlas_11_26
+  - first:
+      213: 6098826388554507417
+    second: LilitaOne-Regular Atlas_11_27
+  - first:
+      213: -1256781673279531027
+    second: LilitaOne-Regular Atlas_11_28
+  - first:
+      213: -5135533056488840315
+    second: LilitaOne-Regular Atlas_11_29
+  - first:
+      213: 7537393527695923947
+    second: LilitaOne-Regular Atlas_11_30
+  - first:
+      213: -3815817413915359125
+    second: LilitaOne-Regular Atlas_11_31
+  - first:
+      213: -7754132986756352818
+    second: LilitaOne-Regular Atlas_11_32
+  - first:
+      213: 3119982231376828014
+    second: LilitaOne-Regular Atlas_11_33
+  - first:
+      213: -5524089436157735011
+    second: LilitaOne-Regular Atlas_11_34
+  - first:
+      213: -5535258634933000972
+    second: LilitaOne-Regular Atlas_11_35
+  - first:
+      213: -2972184634781754787
+    second: LilitaOne-Regular Atlas_11_36
+  - first:
+      213: 7577149110298365700
+    second: LilitaOne-Regular Atlas_11_37
+  - first:
+      213: 8942391790354741829
+    second: LilitaOne-Regular Atlas_11_38
+  - first:
+      213: 1995994485174987481
+    second: LilitaOne-Regular Atlas_11_39
+  - first:
+      213: 5744451886954997731
+    second: LilitaOne-Regular Atlas_11_40
+  - first:
+      213: 7137904762651858630
+    second: LilitaOne-Regular Atlas_11_41
+  - first:
+      213: 2134838639393885176
+    second: LilitaOne-Regular Atlas_11_42
+  - first:
+      213: -7976436122283644793
+    second: LilitaOne-Regular Atlas_11_43
+  - first:
+      213: -7496935779359448431
+    second: LilitaOne-Regular Atlas_11_44
+  - first:
+      213: -1458851853423273766
+    second: LilitaOne-Regular Atlas_11_45
+  - first:
+      213: -7222166741376735367
+    second: LilitaOne-Regular Atlas_11_46
+  - first:
+      213: 3672553502396923135
+    second: LilitaOne-Regular Atlas_11_47
+  - first:
+      213: 6620078664829747756
+    second: LilitaOne-Regular Atlas_11_48
+  - first:
+      213: -985039846363888489
+    second: LilitaOne-Regular Atlas_11_49
+  - first:
+      213: 1858310079607934658
+    second: LilitaOne-Regular Atlas_11_50
+  - first:
+      213: -6813753425556817260
+    second: LilitaOne-Regular Atlas_11_51
+  - first:
+      213: -5288573331587757073
+    second: LilitaOne-Regular Atlas_11_52
+  - first:
+      213: 752519286928926092
+    second: LilitaOne-Regular Atlas_11_53
+  - first:
+      213: 2895035280137361191
+    second: LilitaOne-Regular Atlas_11_54
+  - first:
+      213: 6870544602577861964
+    second: LilitaOne-Regular Atlas_11_55
+  - first:
+      213: -3537003543781186809
+    second: LilitaOne-Regular Atlas_11_56
+  - first:
+      213: -792537732154481662
+    second: LilitaOne-Regular Atlas_11_57
+  - first:
+      213: 7859133238765307358
+    second: LilitaOne-Regular Atlas_11_58
+  - first:
+      213: -8405346696907342159
+    second: LilitaOne-Regular Atlas_11_59
+  - first:
+      213: 5234719289089552850
+    second: LilitaOne-Regular Atlas_11_60
+  - first:
+      213: 8256714547095823341
+    second: LilitaOne-Regular Atlas_11_61
+  - first:
+      213: -2553304720116668690
+    second: LilitaOne-Regular Atlas_11_62
+  - first:
+      213: -8669172159545349988
+    second: LilitaOne-Regular Atlas_11_63
+  - first:
+      213: 4723468682434647298
+    second: LilitaOne-Regular Atlas_11_64
+  - first:
+      213: -5055217840746801897
+    second: LilitaOne-Regular Atlas_11_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c97bc066ed1d5ec0800000000000000
+      internalID: -3576669653758674488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089ca788c1bb730e0800000000000000
+      internalID: -2290156154271381120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 395
+        width: 52
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bb6d4cdcbe4d550800000000000000
+      internalID: 6184827457289763722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 418
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be1830c13ade4b70800000000000000
+      internalID: 8885279022061723321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d43b3046252b490800000000000000
+      internalID: -7732027020729430644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 334
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88791cc42cc9c0e20800000000000000
+      internalID: 3318199383790557064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 408
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db319c16974ded250800000000000000
+      internalID: 5971443773736555453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 324
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f854f988a465cefd0800000000000000
+      internalID: -2311377630628199025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 383
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0211637b49b990d30800000000000000
+      internalID: 4398217574135238944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 371
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5049e6ec9c21c64e0800000000000000
+      internalID: -1987192677616151547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 263
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109533057b3fd73a0800000000000000
+      internalID: -6665903904788358911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 329
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e49acb93a7d47110800000000000000
+      internalID: 1257867293636596963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 250
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88438e983d0b6fd0800000000000000
+      internalID: -2347768243914848117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_13
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 299
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3544e066676ee7720800000000000000
+      internalID: 2845965410737472595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 287
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eb339a7280ed4e0800000000000000
+      internalID: -1955116221796729309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 316
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9b57b63bc446670800000000000000
+      internalID: 8531027927632296355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 316
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d013b03f0ae44f0800000000000000
+      internalID: -842559114546442866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7d9946e1db60f0800000000000000
+      internalID: -1122572895091065519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 179
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f41c366578a4cbd0800000000000000
+      internalID: -2610776661788191497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 166
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c301efe4ef2d10800000000000000
+      internalID: 2103151269928747489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 233
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df3ae9a888f32be0800000000000000
+      internalID: -1503084584761671719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 241
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13da2f345e48c4770800000000000000
+      internalID: 8596391908965788977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 166
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a771a892002e6b2c0800000000000000
+      internalID: -4416093894265399430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 233
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969d3c67c8c472320800000000000000
+      internalID: 2533077481590872425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_24
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 214
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb0958319efac870800000000000000
+      internalID: 8704049129515977724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_25
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 234
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c6b13adf16a0020800000000000000
+      internalID: 2308765500971904075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_26
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 234
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829a4b1f931523e00800000000000000
+      internalID: 1022969374676658472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_27
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 166
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e194994263a450800000000000000
+      internalID: 6098826388554507417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_28
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 166
+        width: 118
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d3f31ab30f8ee0800000000000000
+      internalID: -1256781673279531027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583e4b3f4ebeab8b0800000000000000
+      internalID: -5135533056488840315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bead4a68a733a9860800000000000000
+      internalID: 7537393527695923947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 84
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6843d3774e7b0bc0800000000000000
+      internalID: -3815817413915359125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 167
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4bf37b129c36490800000000000000
+      internalID: -7754132986756352818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 84
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e661fbe1f476c4b20800000000000000
+      internalID: 3119982231376828014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 83
+        width: 60
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f845afced7653b0800000000000000
+      internalID: -5524089436157735011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_35
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 167
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4a7ec399fce23b0800000000000000
+      internalID: -5535258634933000972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_36
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 84
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a95fc62dda0c6d0800000000000000
+      internalID: -2972184634781754787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_37
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 150
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f408968f0772960800000000000000
+      internalID: 7577149110298365700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_38
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 132
+        width: 69
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ab67a54f1c91c70800000000000000
+      internalID: 8942391790354741829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 150
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da6e76b86233bb10800000000000000
+      internalID: 1995994485174987481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_40
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 84
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e766474e8468bf40800000000000000
+      internalID: 5744451886954997731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_41
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 84
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6de6a309eee0360800000000000000
+      internalID: 7137904762651858630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_42
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 83
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbc9d18e6870ad10800000000000000
+      internalID: 2134838639393885176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_43
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 100
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78860b59b910e4190800000000000000
+      internalID: -7976436122283644793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_44
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 100
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1922d5f01a885f790800000000000000
+      internalID: -7496935779359448431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad819c8f7fd11cbe0800000000000000
+      internalID: -1458851853423273766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 30
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97769970d95b5cb90800000000000000
+      internalID: -7222166741376735367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc3cf0d3f787f230800000000000000
+      internalID: 3672553502396923135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_48
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22c152987e3fdb50800000000000000
+      internalID: 6620078664829747756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79400eb8a7f6452f0800000000000000
+      internalID: -985039846363888489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_50
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce0f81fb2b0ac910800000000000000
+      internalID: 1858310079607934658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_51
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 84
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ab59a3c5fa071a0800000000000000
+      internalID: -6813753425556817260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb8b1233963b96b0800000000000000
+      internalID: -5288573331587757073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_53
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 66
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c856700fd4c717a00800000000000000
+      internalID: 752519286928926092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_54
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 66
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7279fccaf3b3d2820800000000000000
+      internalID: 2895035280137361191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_55
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 84
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d71221ae3195f50800000000000000
+      internalID: 6870544602577861964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_56
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703ef9b440a0aeec0800000000000000
+      internalID: -3537003543781186809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_57
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a6d3b1275005f0800000000000000
+      internalID: -792537732154481662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_58
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 0
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5421b8a00411d60800000000000000
+      internalID: 7859133238765307358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_59
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beb5dc66b53a5b80800000000000000
+      internalID: -8405346696907342159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_60
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1711d657575a840800000000000000
+      internalID: 5234719289089552850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 92
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de36277722eb59270800000000000000
+      internalID: 8256714547095823341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_62
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee62e1292e6d09cd0800000000000000
+      internalID: -2553304720116668690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_63
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98e7952ad9e0b780800000000000000
+      internalID: -8669172159545349988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_64
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205133c9db12d8140800000000000000
+      internalID: 4723468682434647298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilitaOne-Regular Atlas_11_65
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715d114582248d9b0800000000000000
+      internalID: -5055217840746801897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LilitaOne-Regular Atlas_11_0: -3576669653758674488
+      LilitaOne-Regular Atlas_11_1: -2290156154271381120
+      LilitaOne-Regular Atlas_11_10: -6665903904788358911
+      LilitaOne-Regular Atlas_11_11: 1257867293636596963
+      LilitaOne-Regular Atlas_11_12: -2347768243914848117
+      LilitaOne-Regular Atlas_11_13: 2845965410737472595
+      LilitaOne-Regular Atlas_11_14: -1955116221796729309
+      LilitaOne-Regular Atlas_11_15: 8531027927632296355
+      LilitaOne-Regular Atlas_11_16: -842559114546442866
+      LilitaOne-Regular Atlas_11_17: -1122572895091065519
+      LilitaOne-Regular Atlas_11_18: -2610776661788191497
+      LilitaOne-Regular Atlas_11_19: 2103151269928747489
+      LilitaOne-Regular Atlas_11_2: 6184827457289763722
+      LilitaOne-Regular Atlas_11_20: -1503084584761671719
+      LilitaOne-Regular Atlas_11_21: 8596391908965788977
+      LilitaOne-Regular Atlas_11_22: -4416093894265399430
+      LilitaOne-Regular Atlas_11_23: 2533077481590872425
+      LilitaOne-Regular Atlas_11_24: 8704049129515977724
+      LilitaOne-Regular Atlas_11_25: 2308765500971904075
+      LilitaOne-Regular Atlas_11_26: 1022969374676658472
+      LilitaOne-Regular Atlas_11_27: 6098826388554507417
+      LilitaOne-Regular Atlas_11_28: -1256781673279531027
+      LilitaOne-Regular Atlas_11_29: -5135533056488840315
+      LilitaOne-Regular Atlas_11_3: 8885279022061723321
+      LilitaOne-Regular Atlas_11_30: 7537393527695923947
+      LilitaOne-Regular Atlas_11_31: -3815817413915359125
+      LilitaOne-Regular Atlas_11_32: -7754132986756352818
+      LilitaOne-Regular Atlas_11_33: 3119982231376828014
+      LilitaOne-Regular Atlas_11_34: -5524089436157735011
+      LilitaOne-Regular Atlas_11_35: -5535258634933000972
+      LilitaOne-Regular Atlas_11_36: -2972184634781754787
+      LilitaOne-Regular Atlas_11_37: 7577149110298365700
+      LilitaOne-Regular Atlas_11_38: 8942391790354741829
+      LilitaOne-Regular Atlas_11_39: 1995994485174987481
+      LilitaOne-Regular Atlas_11_4: -7732027020729430644
+      LilitaOne-Regular Atlas_11_40: 5744451886954997731
+      LilitaOne-Regular Atlas_11_41: 7137904762651858630
+      LilitaOne-Regular Atlas_11_42: 2134838639393885176
+      LilitaOne-Regular Atlas_11_43: -7976436122283644793
+      LilitaOne-Regular Atlas_11_44: -7496935779359448431
+      LilitaOne-Regular Atlas_11_45: -1458851853423273766
+      LilitaOne-Regular Atlas_11_46: -7222166741376735367
+      LilitaOne-Regular Atlas_11_47: 3672553502396923135
+      LilitaOne-Regular Atlas_11_48: 6620078664829747756
+      LilitaOne-Regular Atlas_11_49: -985039846363888489
+      LilitaOne-Regular Atlas_11_5: 3318199383790557064
+      LilitaOne-Regular Atlas_11_50: 1858310079607934658
+      LilitaOne-Regular Atlas_11_51: -6813753425556817260
+      LilitaOne-Regular Atlas_11_52: -5288573331587757073
+      LilitaOne-Regular Atlas_11_53: 752519286928926092
+      LilitaOne-Regular Atlas_11_54: 2895035280137361191
+      LilitaOne-Regular Atlas_11_55: 6870544602577861964
+      LilitaOne-Regular Atlas_11_56: -3537003543781186809
+      LilitaOne-Regular Atlas_11_57: -792537732154481662
+      LilitaOne-Regular Atlas_11_58: 7859133238765307358
+      LilitaOne-Regular Atlas_11_59: -8405346696907342159
+      LilitaOne-Regular Atlas_11_6: 5971443773736555453
+      LilitaOne-Regular Atlas_11_60: 5234719289089552850
+      LilitaOne-Regular Atlas_11_61: 8256714547095823341
+      LilitaOne-Regular Atlas_11_62: -2553304720116668690
+      LilitaOne-Regular Atlas_11_63: -8669172159545349988
+      LilitaOne-Regular Atlas_11_64: 4723468682434647298
+      LilitaOne-Regular Atlas_11_65: -5055217840746801897
+      LilitaOne-Regular Atlas_11_7: -2311377630628199025
+      LilitaOne-Regular Atlas_11_8: 4398217574135238944
+      LilitaOne-Regular Atlas_11_9: -1987192677616151547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 59e4ae7449e12f44bbd80ca7a13ee796
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4261404075170251411
+    second: emojis.com racoon-with-hat- (1)_0
+  - first:
+      213: 5820762237293920338
+    second: emojis.com racoon-with-hat- (1)_1
+  - first:
+      213: -3665442631224545767
+    second: emojis.com racoon-with-hat- (1)_2
+  - first:
+      213: 3551449908799344130
+    second: emojis.com racoon-with-hat- (1)_3
+  - first:
+      213: -5431692045306448306
+    second: emojis.com racoon-with-hat- (1)_4
+  - first:
+      213: 8872422742077501087
+    second: emojis.com racoon-with-hat- (1)_5
+  - first:
+      213: 7257963029840522959
+    second: emojis.com racoon-with-hat- (1)_6
+  - first:
+      213: 8915564327579465279
+    second: emojis.com racoon-with-hat- (1)_7
+  - first:
+      213: 8482551241121383024
+    second: emojis.com racoon-with-hat- (1)_8
+  - first:
+      213: -3105508866082220935
+    second: emojis.com racoon-with-hat- (1)_9
+  - first:
+      213: -7232327584376803220
+    second: emojis.com racoon-with-hat- (1)_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 233
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392cce0bd6c832b30800000000000000
+      internalID: 4261404075170251411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 239
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25089e34a6087c050800000000000000
+      internalID: 5820762237293920338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 227
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ea945e85bb12dc0800000000000000
+      internalID: -3665442631224545767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e049b20e8494130800000000000000
+      internalID: 3551449908799344130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46b136fcd0ce94b0800000000000000
+      internalID: -5431692045306448306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e60aec97d212b70800000000000000
+      internalID: 8872422742077501087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 161
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fceef8adbe679b460800000000000000
+      internalID: 7257963029840522959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36b48de4827abb70800000000000000
+      internalID: 8915564327579465279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072c61c496318b570800000000000000
+      internalID: 8482551241121383024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 65
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974d756d32407e4d0800000000000000
+      internalID: -3105508866082220935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emojis.com racoon-with-hat- (1)_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6036f9616c91ab90800000000000000
+      internalID: -7232327584376803220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      emojis.com racoon-with-hat- (1)_0: 4261404075170251411
+      emojis.com racoon-with-hat- (1)_1: 5820762237293920338
+      emojis.com racoon-with-hat- (1)_10: -7232327584376803220
+      emojis.com racoon-with-hat- (1)_2: -3665442631224545767
+      emojis.com racoon-with-hat- (1)_3: 3551449908799344130
+      emojis.com racoon-with-hat- (1)_4: -5431692045306448306
+      emojis.com racoon-with-hat- (1)_5: 8872422742077501087
+      emojis.com racoon-with-hat- (1)_6: 7257963029840522959
+      emojis.com racoon-with-hat- (1)_7: 8915564327579465279
+      emojis.com racoon-with-hat- (1)_8: 8482551241121383024
+      emojis.com racoon-with-hat- (1)_9: -3105508866082220935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

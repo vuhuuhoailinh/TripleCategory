@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: 6ff16e83d438238409ff3f71b8420949
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6537006246689521586
+    second: Level_03_Atlas_0
+  - first:
+      213: 3613383629983338428
+    second: Level_03_Atlas_1
+  - first:
+      213: 6713062156775516531
+    second: Level_03_Atlas_2
+  - first:
+      213: 3963948791479084039
+    second: Level_03_Atlas_3
+  - first:
+      213: -4829325650970054225
+    second: Level_03_Atlas_4
+  - first:
+      213: 979904394279264492
+    second: Level_03_Atlas_5
+  - first:
+      213: -3402559339405764477
+    second: Level_03_Atlas_6
+  - first:
+      213: 7860932159133855615
+    second: Level_03_Atlas_7
+  - first:
+      213: 2809623739175188135
+    second: Level_03_Atlas_8
+  - first:
+      213: 5996149434441286979
+    second: Level_03_Atlas_9
+  - first:
+      213: 2978451750268183965
+    second: Level_03_Atlas_10
+  - first:
+      213: 6062263280265562387
+    second: Level_03_Atlas_11
+  - first:
+      213: 2410930213646472612
+    second: Level_03_Atlas_12
+  - first:
+      213: 4515637505346401383
+    second: Level_03_Atlas_13
+  - first:
+      213: 9086134019256718260
+    second: Level_03_Atlas_14
+  - first:
+      213: 4828484354628352438
+    second: Level_03_Atlas_15
+  - first:
+      213: -7420327162566074892
+    second: Level_03_Atlas_16
+  - first:
+      213: 1320784965426041025
+    second: Level_03_Atlas_17
+  - first:
+      213: 4762708016023567846
+    second: Level_03_Atlas_18
+  - first:
+      213: 7798573523277025484
+    second: Level_03_Atlas_19
+  - first:
+      213: 2865017509194229899
+    second: Level_03_Atlas_20
+  - first:
+      213: 1043674930401129275
+    second: Level_03_Atlas_21
+  - first:
+      213: -5559701235608136826
+    second: Level_03_Atlas_22
+  - first:
+      213: -6436993284461777288
+    second: Level_03_Atlas_23
+  - first:
+      213: 7252812561341158331
+    second: Level_03_Atlas_24
+  - first:
+      213: -899151742093652508
+    second: Level_03_Atlas_25
+  - first:
+      213: 7644642192426429234
+    second: Level_03_Atlas_26
+  - first:
+      213: 4341836937035580221
+    second: Level_03_Atlas_27
+  - first:
+      213: 7222560473123175114
+    second: Level_03_Atlas_28
+  - first:
+      213: 8101477212217479816
+    second: Level_03_Atlas_29
+  - first:
+      213: 8819269963128934606
+    second: Level_03_Atlas_30
+  - first:
+      213: -4774970929881554166
+    second: Level_03_Atlas_31
+  - first:
+      213: -4718374654587263674
+    second: Level_03_Atlas_32
+  - first:
+      213: 6636543784168316370
+    second: Level_03_Atlas_33
+  - first:
+      213: -2716101110504936630
+    second: Level_03_Atlas_34
+  - first:
+      213: -5746042237384682034
+    second: Level_03_Atlas_35
+  - first:
+      213: 9045996944339386215
+    second: Level_03_Atlas_36
+  - first:
+      213: -4349832231847516735
+    second: Level_03_Atlas_37
+  - first:
+      213: -5914635619005482981
+    second: Level_03_Atlas_38
+  - first:
+      213: -8796743489521465160
+    second: Level_03_Atlas_39
+  - first:
+      213: -6328986737256589547
+    second: Level_03_Atlas_40
+  - first:
+      213: 8988424814471462329
+    second: Level_03_Atlas_41
+  - first:
+      213: 4206135460838772600
+    second: Level_03_Atlas_42
+  - first:
+      213: 3127351981733630884
+    second: Level_03_Atlas_43
+  - first:
+      213: -5320454478184660125
+    second: Level_03_Atlas_44
+  - first:
+      213: -2701561507222006413
+    second: Level_03_Atlas_45
+  - first:
+      213: 5181403132820730092
+    second: Level_03_Atlas_46
+  - first:
+      213: 7233319893865395681
+    second: Level_03_Atlas_47
+  - first:
+      213: -543879811623709794
+    second: Level_03_Atlas_48
+  - first:
+      213: -1233327077335753143
+    second: Level_03_Atlas_49
+  - first:
+      213: 924409901370854097
+    second: Level_03_Atlas_50
+  - first:
+      213: -8893127904571226792
+    second: Level_03_Atlas_51
+  - first:
+      213: -945548609026434075
+    second: Level_03_Atlas_52
+  - first:
+      213: 464126928433895792
+    second: Level_03_Atlas_53
+  - first:
+      213: -6712130953873225787
+    second: Level_03_Atlas_54
+  - first:
+      213: 6334998286049774175
+    second: Level_03_Atlas_55
+  - first:
+      213: -5283608243052309104
+    second: Level_03_Atlas_56
+  - first:
+      213: -3677145503346330260
+    second: Level_03_Atlas_57
+  - first:
+      213: 278271729886591288
+    second: Level_03_Atlas_58
+  - first:
+      213: -391328146386421828
+    second: Level_03_Atlas_59
+  - first:
+      213: -5534518182303543039
+    second: Level_03_Atlas_60
+  - first:
+      213: 9007234770987901119
+    second: Level_03_Atlas_61
+  - first:
+      213: 1967568499539301602
+    second: Level_03_Atlas_62
+  - first:
+      213: 7973736452618987951
+    second: Level_03_Atlas_63
+  - first:
+      213: -7157421666378716829
+    second: Level_03_Atlas_64
+  - first:
+      213: 3501498588980520714
+    second: Level_03_Atlas_65
+  - first:
+      213: -7306504126785721368
+    second: Level_03_Atlas_66
+  - first:
+      213: 5182045852842007283
+    second: Level_03_Atlas_67
+  - first:
+      213: -8985618545681476273
+    second: Level_03_Atlas_68
+  - first:
+      213: -2621309151790607773
+    second: Level_03_Atlas_69
+  - first:
+      213: -3790545263435956005
+    second: Level_03_Atlas_70
+  - first:
+      213: 5596094201888774840
+    second: Level_03_Atlas_71
+  - first:
+      213: 8259844199728427409
+    second: Level_03_Atlas_72
+  - first:
+      213: -8843183135742072487
+    second: Level_03_Atlas_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_03_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1586
+        width: 184
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf307cfb8c18ba50800000000000000
+      internalID: 6537006246689521586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1590
+        width: 212
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf4e565441552230800000000000000
+      internalID: 3613383629983338428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1589
+        width: 132
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379e8b9d676992d50800000000000000
+      internalID: 6713062156775516531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1592
+        width: 229
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70423f78c66c20730800000000000000
+      internalID: 3963948791479084039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1587
+        width: 212
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa17f3548e9cafcb0800000000000000
+      internalID: -4829325650970054225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1635
+        width: 209
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce02cd6dad1599d00800000000000000
+      internalID: 979904394279264492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1595
+        width: 207
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388188fee4ea7c0d0800000000000000
+      internalID: -3402559339405764477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1598
+        width: 163
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f2e945624a71d60800000000000000
+      internalID: 7860932159133855615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1594
+        width: 116
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6ba0e97e9cdf620800000000000000
+      internalID: 2809623739175188135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1322
+        width: 160
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3454804442a963350800000000000000
+      internalID: 5996149434441286979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1335
+        width: 205
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95206b1616955920800000000000000
+      internalID: 2978451750268183965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1324
+        width: 141
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198f1b855c712450800000000000000
+      internalID: 6062263280265562387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1382
+        width: 234
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a597a27148557120800000000000000
+      internalID: 2410930213646472612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1490
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7647a90e264caae30800000000000000
+      internalID: 4515637505346401383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1369
+        width: 209
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3936700ce681e70800000000000000
+      internalID: 9086134019256718260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1324
+        width: 145
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9772920f8320340800000000000000
+      internalID: 4828484354628352438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1331
+        width: 152
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd111e92c3b50990800000000000000
+      internalID: -7420327162566074892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1327
+        width: 105
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c055e0adee545210800000000000000
+      internalID: 1320784965426041025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1343
+        width: 188
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed7df7e4b9881240800000000000000
+      internalID: 4762708016023567846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1057
+        width: 151
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc091b10d491a3c60800000000000000
+      internalID: 7798573523277025484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1064
+        width: 174
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88ebcebe3692c720800000000000000
+      internalID: 2865017509194229899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1062
+        width: 143
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b333a8fc1d0eb7e00800000000000000
+      internalID: 1043674930401129275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1113
+        width: 230
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d64ace29f7d2b0800000000000000
+      internalID: -5559701235608136826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1055
+        width: 204
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ea41266b43ba6a0800000000000000
+      internalID: -6436993284461777288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1121
+        width: 242
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb31b35f89a27a460800000000000000
+      internalID: 7252812561341158331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1061
+        width: 194
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed855521429583f0800000000000000
+      internalID: -899151742093652508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1100
+        width: 204
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b6a8a2299371a60800000000000000
+      internalID: 7644642192426429234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1073
+        width: 150
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d330da0b0bd414c30800000000000000
+      internalID: 4341836937035580221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 794
+        width: 165
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acab849cb70bb3460800000000000000
+      internalID: 7222560473123175114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 802
+        width: 167
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882152ed99a3e6070800000000000000
+      internalID: 8101477212217479816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 791
+        width: 169
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec092921e47546a70800000000000000
+      internalID: 8819269963128934606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 852
+        width: 230
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e797fc35ebbdb0800000000000000
+      internalID: -4774970929881554166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 795
+        width: 191
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645ae1c2047f48eb0800000000000000
+      internalID: -4718374654587263674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 806
+        width: 159
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dddda7e86db91c50800000000000000
+      internalID: 6636543784168316370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 791
+        width: 192
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2f463e687e4ad0800000000000000
+      internalID: -2716101110504936630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 808
+        width: 170
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec59b486705f140b0800000000000000
+      internalID: -5746042237384682034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 818
+        width: 208
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f3e9a0b46d98d70800000000000000
+      internalID: 9045996944339386215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 543
+        width: 137
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c52f2ca1aa42a3c0800000000000000
+      internalID: -4349832231847516735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 542
+        width: 146
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b183e49dd3efaeda0800000000000000
+      internalID: -5914635619005482981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 531
+        width: 183
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c7d64760bbe580800000000000000
+      internalID: -8796743489521465160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 529
+        width: 202
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51799a9481cea28a0800000000000000
+      internalID: -6328986737256589547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 551
+        width: 185
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdb0ecfebc4dbc70800000000000000
+      internalID: 8988424814471462329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 542
+        width: 170
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f0874aae13f5a30800000000000000
+      internalID: 4206135460838772600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 527
+        width: 135
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3d8d6de06966b20800000000000000
+      internalID: 3127351981733630884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 548
+        width: 198
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363ca2057d2f926b0800000000000000
+      internalID: -5320454478184660125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 548
+        width: 160
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375d9276f10228ad0800000000000000
+      internalID: -2701561507222006413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 264
+        width: 150
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce030e172ba08e740800000000000000
+      internalID: 5181403132820730092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 263
+        width: 180
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5fc94ae1ae16460800000000000000
+      internalID: 7233319893865395681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 271
+        width: 186
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9399a36130c378f0800000000000000
+      internalID: -543879811623709794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 275
+        width: 195
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e188fbe8752eee0800000000000000
+      internalID: -1233327077335753143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 286
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da401658e924dc00800000000000000
+      internalID: 924409901370854097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 281
+        width: 223
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8550be1e943459480800000000000000
+      internalID: -8893127904571226792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 273
+        width: 176
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb5d11cc8cb0e2f0800000000000000
+      internalID: -945548609026434075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 268
+        width: 156
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079defb7bf8e07600800000000000000
+      internalID: 464126928433895792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 288
+        width: 177
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c78b78b578b9d2a0800000000000000
+      internalID: -6712130953873225787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 264
+        width: 119
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a84bc706f6ae750800000000000000
+      internalID: 6334998286049774175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 270
+        width: 166
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0959a84fb4adca6b0800000000000000
+      internalID: -5283608243052309104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 272
+        width: 158
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65fd95a5a728fcc0800000000000000
+      internalID: -3677145503346330260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 270
+        width: 168
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8397ceaf9ae9cd300800000000000000
+      internalID: 278271729886591288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3
+        width: 147
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7760ccf19b19af0800000000000000
+      internalID: -391328146386421828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 169
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1015bdc49017133b0800000000000000
+      internalID: -5534518182303543039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 34
+        width: 187
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0e7454d40200d70800000000000000
+      internalID: 9007234770987901119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 218
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4d94e20253e4b10800000000000000
+      internalID: 1967568499539301602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 10
+        width: 223
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa920f69e0768ae60800000000000000
+      internalID: 7973736452618987951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 12
+        width: 209
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369efc38aeabbac90800000000000000
+      internalID: -7157421666378716829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 0
+        width: 180
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0727b93a62d79030800000000000000
+      internalID: 3501498588980520714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 16
+        width: 166
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebe20d45351a9a90800000000000000
+      internalID: -7306504126785721368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 13
+        width: 163
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa1f6c5f335ae740800000000000000
+      internalID: 5182045852842007283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 22
+        width: 234
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f455e716a8bac4380800000000000000
+      internalID: -8985618545681476273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 1
+        width: 247
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3625a09f63d3f9bd0800000000000000
+      internalID: -2621309151790607773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 18
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd04cd38a27456bc0800000000000000
+      internalID: -3790545263435956005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 22
+        width: 228
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba1439f60259ad40800000000000000
+      internalID: 5596094201888774840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 20
+        width: 242
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19132e0898cd0a270800000000000000
+      internalID: 8259844199728427409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_03_Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 12
+        width: 156
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9596e5e8ac3b64580800000000000000
+      internalID: -8843183135742072487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Level_03_Atlas_0: 6537006246689521586
+      Level_03_Atlas_1: 3613383629983338428
+      Level_03_Atlas_10: 2978451750268183965
+      Level_03_Atlas_11: 6062263280265562387
+      Level_03_Atlas_12: 2410930213646472612
+      Level_03_Atlas_13: 4515637505346401383
+      Level_03_Atlas_14: 9086134019256718260
+      Level_03_Atlas_15: 4828484354628352438
+      Level_03_Atlas_16: -7420327162566074892
+      Level_03_Atlas_17: 1320784965426041025
+      Level_03_Atlas_18: 4762708016023567846
+      Level_03_Atlas_19: 7798573523277025484
+      Level_03_Atlas_2: 6713062156775516531
+      Level_03_Atlas_20: 2865017509194229899
+      Level_03_Atlas_21: 1043674930401129275
+      Level_03_Atlas_22: -5559701235608136826
+      Level_03_Atlas_23: -6436993284461777288
+      Level_03_Atlas_24: 7252812561341158331
+      Level_03_Atlas_25: -899151742093652508
+      Level_03_Atlas_26: 7644642192426429234
+      Level_03_Atlas_27: 4341836937035580221
+      Level_03_Atlas_28: 7222560473123175114
+      Level_03_Atlas_29: 8101477212217479816
+      Level_03_Atlas_3: 3963948791479084039
+      Level_03_Atlas_30: 8819269963128934606
+      Level_03_Atlas_31: -4774970929881554166
+      Level_03_Atlas_32: -4718374654587263674
+      Level_03_Atlas_33: 6636543784168316370
+      Level_03_Atlas_34: -2716101110504936630
+      Level_03_Atlas_35: -5746042237384682034
+      Level_03_Atlas_36: 9045996944339386215
+      Level_03_Atlas_37: -4349832231847516735
+      Level_03_Atlas_38: -5914635619005482981
+      Level_03_Atlas_39: -8796743489521465160
+      Level_03_Atlas_4: -4829325650970054225
+      Level_03_Atlas_40: -6328986737256589547
+      Level_03_Atlas_41: 8988424814471462329
+      Level_03_Atlas_42: 4206135460838772600
+      Level_03_Atlas_43: 3127351981733630884
+      Level_03_Atlas_44: -5320454478184660125
+      Level_03_Atlas_45: -2701561507222006413
+      Level_03_Atlas_46: 5181403132820730092
+      Level_03_Atlas_47: 7233319893865395681
+      Level_03_Atlas_48: -543879811623709794
+      Level_03_Atlas_49: -1233327077335753143
+      Level_03_Atlas_5: 979904394279264492
+      Level_03_Atlas_50: 924409901370854097
+      Level_03_Atlas_51: -8893127904571226792
+      Level_03_Atlas_52: -945548609026434075
+      Level_03_Atlas_53: 464126928433895792
+      Level_03_Atlas_54: -6712130953873225787
+      Level_03_Atlas_55: 6334998286049774175
+      Level_03_Atlas_56: -5283608243052309104
+      Level_03_Atlas_57: -3677145503346330260
+      Level_03_Atlas_58: 278271729886591288
+      Level_03_Atlas_59: -391328146386421828
+      Level_03_Atlas_6: -3402559339405764477
+      Level_03_Atlas_60: -5534518182303543039
+      Level_03_Atlas_61: 9007234770987901119
+      Level_03_Atlas_62: 1967568499539301602
+      Level_03_Atlas_63: 7973736452618987951
+      Level_03_Atlas_64: -7157421666378716829
+      Level_03_Atlas_65: 3501498588980520714
+      Level_03_Atlas_66: -7306504126785721368
+      Level_03_Atlas_67: 5182045852842007283
+      Level_03_Atlas_68: -8985618545681476273
+      Level_03_Atlas_69: -2621309151790607773
+      Level_03_Atlas_7: 7860932159133855615
+      Level_03_Atlas_70: -3790545263435956005
+      Level_03_Atlas_71: 5596094201888774840
+      Level_03_Atlas_72: 8259844199728427409
+      Level_03_Atlas_73: -8843183135742072487
+      Level_03_Atlas_8: 2809623739175188135
+      Level_03_Atlas_9: 5996149434441286979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
