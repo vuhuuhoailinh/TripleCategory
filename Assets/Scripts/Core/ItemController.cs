@@ -2,20 +2,29 @@ using UnityEngine;
 
 public class ItemController : MonoBehaviour
 {
-    public int categoryID; // ID để đối chiếu xem 3 viên có giống nhau không
-    public SpriteRenderer spriteRenderer;
+    [Header("Thông tin Dữ liệu")]
+    public int categoryID; // Mã định danh họ hàng (VD: 100 là Zombie, 200 là Trái cây)
 
-    // Hàm này sẽ được LevelManager gọi ngay khi sinh ra viên Emoji
-    public void SetupItem(int id, Sprite newSprite)
+    [Header("Thành phần Giao diện")]
+    [Tooltip("Kéo đối tượng con 'Item_Icon' vào đây")]
+    public SpriteRenderer iconRenderer; 
+
+    // Hàm này được LevelManager gọi để thiết lập dữ liệu khi sinh ra
+    public void SetupItem(int catID, Sprite newSprite)
     {
         this.categoryID = catID;
         
-        // Tự động gán tham chiếu nếu bác quên kéo trong Inspector
-        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        // Thay hình ảnh cho đối tượng con
+        if (iconRenderer != null)
+        {
+            iconRenderer.sprite = newSprite;
+        }
+        else
+        {
+            Debug.LogWarning($"Item_Base {gameObject.name} chưa được gán Icon Renderer!");
+        }
         
-        // "Thay áo" cho viên Emoji
-        spriteRenderer.sprite = newSprite;
-        
-        // Đổi luôn tên object trong Hierarchy cho dễ soi lỗi
+        // Đổi tên Object trong Hierarchy cho dễ quản lý
         gameObject.name = $"Item_Cat{catID}_{newSprite.name}";
+    }
 }

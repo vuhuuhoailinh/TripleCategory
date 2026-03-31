@@ -2,49 +2,57 @@ using UnityEngine;
 
 public class ShelfController : MonoBehaviour
 {
-    [Header("Gán tham chiếu 3 Thẻ")]
-    [Tooltip("Kéo Card1, Card2, Card3 từ Hierarchy vào 3 ô này")]
-    // Đặt tham chiếu dạng public để dễ gán trong Inspector
-    public GameObject card1;
-    public GameObject card2;
-    public GameObject card3;
+    [Header("Dữ liệu Vật phẩm đang chứa")]
+    public GameObject[] slots = new GameObject[3]; 
+    
+    [Header("Điểm Neo (Kéo Card1, Card2, Card3 vào đây)")]
+    public Transform[] slotAnchors = new Transform[3];
 
-    // Mảng này sẽ được dùng để lưu trữ 3 thẻ sau khi đã gán tham chiếu
-    private GameObject[] slots;
-
-    void Start()
+    public int GetFirstEmptySlot()
     {
-        // Khởi tạo mảng slots và gán 3 thẻ vào đó
-        slots = new GameObject[3] { card1, card2, card3 };
-
-        // (Tùy chọn) Bác có thể tự động gán tham chiếu bằng code 
-        // nếu không muốn kéo thả thủ công
-        // card1 = transform.Find("Card1")?.gameObject;
-        // card2 = transform.Find("Card2")?.gameObject;
-        // card3 = transform.Find("Card3")?.gameObject;
-        // slots = new GameObject[3] { card1, card2, card3 };
+        for (int i = 0; i < slots.Length; i++)
+            if (slots[i] == null) return i;
+        return -1; 
     }
 
-    // Hàm này sẽ dùng để nhét viên Emoji vào kệ khi sinh màn chơi hoặc khi người chơi Swap
-    // (Lát nữa làm ItemController ta sẽ đổi tham chiếu sang ItemController sau)
-    public void AssignItemToSlot(int slotIndex, GameObject item)
+    public void AssignItemToSlot(int index, GameObject item)
     {
-        if (slotIndex < 0 || slotIndex >= 3) return;
-        
-        slots[slotIndex] = item;
-        
-        // Gắn item làm object con của kệ để Hierarchy gọn gàng
-        item.transform.SetParent(this.transform); 
+        slots[index] = item;
+        if (item != null)
+        {
+            // Bắt Item làm con của điểm Neo (Card) tương ứng
+            item.transform.SetParent(slotAnchors[index]);
+            
+            // Ép tọa độ về 0,0,0 để nó lọt khít vào giữa tấm Card
+            item.transform.localPosition = Vector3.zero;
+        }
     }
 
-    // Hàm này sẽ được gọi mỗi khi người chơi tráo đổi (Swap) xong 1 viên Emoji vào kệ này
     public void CheckForMatch()
     {
-        // 1. Nếu có bất kỳ lỗ hổng nào (chưa xếp đủ 3 viên) -> Nghỉ, không check
         if (slots[0] == null || slots[1] == null || slots[2] == null) return;
 
-        // Lát nữa chúng ta sẽ viết logic so sánh ID của 3 viên ở đây
-        // Nếu ID giống nhau -> Bùm! Gọi hiệu ứng DOTween nổ tung.
-        Debug.Log($"Kệ {gameObject.name} đang check Match 3...");
+        ItemController item0 = slots[0].GetComponent<ItemController>();
+        ItemController item1 = slots[1].GetComponent<ItemController>();
+        ItemController item2 = slots[2].GetComponent<ItemController>();
+
+        if (item0 == null || item1 == null || item2 == null) return;
+
+        int id0 = item0.categoryID;
+        int id1 = item1.categoryID;
+        int id2 = item2.categoryID;
+
+        if (id0 == id1 && id1 == id2)
+        {
+            Debug.Log($"<color=yellow>BÙM! Kệ {gameObject.name} MATCH 3 CATEGORY {id0}!</color>");
+            
+            Destroy(slots[0]);
+            Destroy(slots[1]);
+            Destroy(slots[2]);
+
+            slots[0] = null;
+            slots[1] = null;
+            slots[2] = null;
+        }
     }
 }

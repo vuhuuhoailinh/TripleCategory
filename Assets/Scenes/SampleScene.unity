@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -488,7 +488,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 232}
+  m_SizeDelta: {x: 0, y: 168.12}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &559051487
 CanvasRenderer:
@@ -609,8 +609,8 @@ RectTransform:
   m_GameObject: {fileID: 810581506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1079113620}
   - {fileID: 2097134253}
@@ -618,7 +618,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 7, y: 56}
   m_SizeDelta: {x: 711.95166, y: 201.9509}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &810581508
@@ -693,8 +693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 328.06}
+  m_AnchoredPosition: {x: 0, y: -1}
+  m_SizeDelta: {x: 0, y: 242.01}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &830183552
 CanvasRenderer:
@@ -878,6 +878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1163499404}
+  - component: {fileID: 1163499405}
   - component: {fileID: 1163499403}
   m_Layer: 0
   m_Name: GameManager
@@ -900,20 +901,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   shelfPrefab: {fileID: 4370774873665870881, guid: f481206a00d982a41bf986eb39391965, type: 3}
   baseItemPrefab: {fileID: 7828234512639631343, guid: 33e28cbd5009f0f4f901b231a381694b, type: 3}
-  availableSprites:
-  - {fileID: -3164809056393425246, guid: 55d6b83ee4178dc4db05ae957913ca82, type: 3}
-  - {fileID: -518947059927683541, guid: 083ebacea31c9434c8d67e8a4a96935d, type: 3}
-  - {fileID: -7821548458104148983, guid: 82e865f1eeda78946a9dc94d29c30616, type: 3}
-  - {fileID: 8384998083729714064, guid: 29639b8c7ff53334a8b48a1c0eb48e0c, type: 3}
-  - {fileID: -174200617167038751, guid: 82b18e0f91de5234384af9be3344374e, type: 3}
-  - {fileID: -5225540622116197949, guid: 055a10e3c5ef5904d9b0aa0617de4738, type: 3}
-  - {fileID: -6133890164315466395, guid: a795c9e31fc4c7a46b733b38d8a73438, type: 3}
+  availableCategories:
+  - categoryName: Zombie
+    categoryID: 0
+    sprites:
+    - {fileID: -8841145405860400570, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 8542865814786909303, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 5066082680302829644, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Fruits
+    categoryID: 1
+    sprites:
+    - {fileID: -5286273394788531449, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 9010134994274897256, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -3230871558270079013, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Vampire
+    categoryID: 2
+    sprites:
+    - {fileID: -2276341593899706334, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -1613935888919963003, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -5312927899812521000, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Bags
+    categoryID: 3
+    sprites:
+    - {fileID: -6716573591053291110, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -6421320450000609966, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 4624856164402369286, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Clothes
+    categoryID: 4
+    sprites:
+    - {fileID: -153774963845573408, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -6627475438499135741, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 3782076668161862703, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Chef
+    categoryID: 5
+    sprites:
+    - {fileID: 2434683265371392456, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -3559340338378639175, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -4936078625943825517, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Animal
+    categoryID: 6
+    sprites:
+    - {fileID: 178264256090011156, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -8634156723724658699, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 5520641112334814763, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Flower
+    categoryID: 7
+    sprites:
+    - {fileID: -2407836606595275473, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: 6126911476449947926, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+    - {fileID: -5077712814999051255, guid: 9f227c74c70060348bb8e7361d502e7e, type: 3}
+  - categoryName: Emoji
+    categoryID: 8
+    sprites:
+    - {fileID: -2329462520826296514, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: -4305088563044181032, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 1724255244986729397, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Ghost
+    categoryID: 9
+    sprites:
+    - {fileID: -1287732533567855972, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 7385624827211833933, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 3507233206386671278, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
   columns: 2
   rows: 5
   spacingX: 2.5
-  spacingY: 1.5
-  itemSpacing: 0.6
-  itemVerticalOffset: 0
+  spacingY: 1.3
 --- !u!4 &1163499404
 Transform:
   m_ObjectHideFlags: 0
@@ -923,60 +975,24 @@ Transform:
   m_GameObject: {fileID: 1163499402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -0.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1460247065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1460247067}
-  - component: {fileID: 1460247066}
-  m_Layer: 0
-  m_Name: GridManger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1460247066
+--- !u!114 &1163499405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460247065}
+  m_GameObject: {fileID: 1163499402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 652715c32509478448fd3b69eba0d948, type: 3}
+  m_Script: {fileID: 11500000, guid: b950c3e2bde36a941a887540e008ded4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  columns: 6
-  rows: 8
-  spacing: 1.2
-  itemPrefabs: []
---- !u!4 &1460247067
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460247065}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.58, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::DragManager
 --- !u!1 &1915205520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,6 +1304,5 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 2033545614}
   - {fileID: 536768466}
-  - {fileID: 1460247067}
   - {fileID: 1163499404}
   - {fileID: 557186155}
