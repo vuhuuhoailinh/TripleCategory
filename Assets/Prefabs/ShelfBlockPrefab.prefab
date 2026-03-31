@@ -373,10 +373,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShelfAnimation
   hoverFadeDuration: 0
   maxDarkenAlpha: 0.5
-  glowDuration: 3
-  glowColor: {r: 1, g: 0, b: 0, a: 1}
-  delayBeforeMatch: 0.25
-  matchShrinkDuration: 0.2
+  glowDuration: 2
+  glowColor: {r: 1, g: 0, b: 0.020431519, a: 1}
+  delayBeforeMatch: 0.4
+  matchShrinkDuration: 0.4
 --- !u!114 &2341063518800918509
 MonoBehaviour:
   m_ObjectHideFlags: 0

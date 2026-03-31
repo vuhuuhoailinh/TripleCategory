@@ -65,4 +65,19 @@ public class GameManager : MonoBehaviour
             movesText.text = "Moves: " + currentMoves.ToString();
         }
     }
+
+    private void OnEnable()
+    {
+        GameEvents.OnMoveUsed += UseMove;
+        GameEvents.OnItemsMatched += ItemsMatched;
+        GameEvents.OnLevelGenerated += RegisterTotalItems;
+    }
+
+    // Tắt đài phát thanh khi object bị hủy (BẮT BUỘC để tránh rò rỉ bộ nhớ - Memory Leak)
+    private void OnDisable()
+    {
+        GameEvents.OnMoveUsed -= UseMove;
+        GameEvents.OnItemsMatched -= ItemsMatched;
+        GameEvents.OnLevelGenerated -= RegisterTotalItems;
+    }
 }

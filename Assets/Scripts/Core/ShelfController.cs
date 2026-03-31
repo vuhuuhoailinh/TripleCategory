@@ -96,7 +96,7 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
             if (animator != null)
             {
                 animator.PlayMatchAnimation(obj0, obj1, obj2, () => {
-                    if (GameManager.Instance != null) GameManager.Instance.ItemsMatched();
+                    GameEvents.OnItemsMatched?.Invoke();
                 });
             }
         }

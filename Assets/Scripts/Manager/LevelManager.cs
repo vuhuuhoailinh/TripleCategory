@@ -107,7 +107,7 @@ public class LevelManager : MonoBehaviour
         // Báo cáo tổng số hàng hóa cho Trọng tài
         if (GameManager.Instance != null)
         {
-            GameManager.Instance.RegisterTotalItems(categoriesNeeded * 3);
+            GameEvents.OnLevelGenerated?.Invoke(categoriesNeeded * 3);
         }
     }
 

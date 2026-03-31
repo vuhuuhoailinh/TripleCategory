@@ -206,7 +206,7 @@ public class DragManager : MonoBehaviour
                 if (targetShelf != null) targetShelf.PlayDropGlow(emptySlot);
             });
 
-            if (GameManager.Instance != null) GameManager.Instance.UseMove();
+            GameEvents.OnMoveUsed?.Invoke();
 
             return true;
         }
