@@ -2,29 +2,69 @@ using UnityEngine;
 
 public class ShelfController : MonoBehaviour
 {
-    [Header("Dữ liệu Vật phẩm đang chứa")]
-    public GameObject[] slots = new GameObject[3]; 
-    
-    [Header("Điểm Neo (Kéo Card1, Card2, Card3 vào đây)")]
+    [Header("Dữ liệu Vật phẩm (Mặc định là 3 Card)")]
+    public GameObject[] slots = new GameObject[3];
     public Transform[] slotAnchors = new Transform[3];
 
-    public int GetFirstEmptySlot()
+    private ShelfAnimation animator; // Thợ diễn hoạt ảnh
+
+    void Awake()
     {
-        for (int i = 0; i < slots.Length; i++)
-            if (slots[i] == null) return i;
-        return -1; 
+        animator = GetComponent<ShelfAnimation>();
+        if (animator != null)
+        {
+            animator.Initialize(slotAnchors); // Bàn giao mảng Anchor cho Animator tự tìm đồ nghề
+        }
     }
 
+    public int GetClosestSlotAny(Vector2 dropPosition)
+    {
+        int bestIndex = -1;
+        float minDistance = 999f;
+        for (int i = 0; i < 3; i++)
+        {
+            if (slotAnchors[i] != null)
+            {
+                float dist = Vector2.Distance(dropPosition, slotAnchors[i].position);
+                if (dist < minDistance) { minDistance = dist; bestIndex = i; }
+            }
+        }
+        return bestIndex;
+    }
+
+public int GetClosestEmptySlot(Vector2 dropPosition)
+    {
+        int bestIndex = -1;
+        float minDistance = 999f;
+        for (int i = 0; i < 3; i++)
+        {
+            bool isEmpty = (slots[i] == null) || (slots[i].GetComponent<ItemController>() == null);
+
+            if (isEmpty && slotAnchors[i] != null)
+            {
+                float dist = Vector2.Distance(dropPosition, slotAnchors[i].position);
+                if (dist < minDistance)
+                {
+                    minDistance = dist;
+                    bestIndex = i;
+                }
+            }
+        }
+        return bestIndex;
+    }
+
+    // --- ỦY QUYỀN CHO ANIMATOR ---
+    public void ShowHover(int index) { if (animator != null) animator.ShowHover(index); }
+    public void ClearHover() { if (animator != null) animator.ClearHover(); }
+    public void PlayDropGlow(int index) { if (animator != null) animator.PlayDropGlow(index); }
+
+    // --- LOGIC XỬ LÝ GAMEPLAY ---
     public void AssignItemToSlot(int index, GameObject item)
     {
         slots[index] = item;
-        if (item != null)
+        if (item != null && slotAnchors[index] != null)
         {
-            // Bắt Item làm con của điểm Neo (Card) tương ứng
             item.transform.SetParent(slotAnchors[index]);
-            
-            // Ép tọa độ về 0,0,0 để nó lọt khít vào giữa tấm Card
-            item.transform.localPosition = Vector3.zero;
         }
     }
 
@@ -44,15 +84,21 @@ public class ShelfController : MonoBehaviour
 
         if (id0 == id1 && id1 == id2)
         {
-            Debug.Log($"<color=yellow>BÙM! Kệ {gameObject.name} MATCH 3 CATEGORY {id0}!</color>");
-            
-            Destroy(slots[0]);
-            Destroy(slots[1]);
-            Destroy(slots[2]);
+            GameObject obj0 = slots[0];
+            GameObject obj1 = slots[1];
+            GameObject obj2 = slots[2];
 
-            slots[0] = null;
-            slots[1] = null;
-            slots[2] = null;
+            slots[0] = slotAnchors[0].gameObject;
+            slots[1] = slotAnchors[1].gameObject;
+            slots[2] = slotAnchors[2].gameObject;
+
+            // Giao cho Animator làm hiệu ứng nổ, nổ xong thì báo cho GameManager
+            if (animator != null)
+            {
+                animator.PlayMatchAnimation(obj0, obj1, obj2, () => {
+                    if (GameManager.Instance != null) GameManager.Instance.ItemsMatched();
+                });
+            }
         }
     }
 }
