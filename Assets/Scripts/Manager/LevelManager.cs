@@ -12,6 +12,7 @@ public class ItemCategory
 public struct SpawnData
 {
     public int categoryID;
+    public string categoryName;
     public Sprite sprite;
 }
 
@@ -19,14 +20,16 @@ public class LevelManager : MonoBehaviour
 {
     [Header("Prefabs Đầu Vào")]
     public GameObject shelfPrefab;    
-    public GameObject baseItemPrefab;  
+    public GameObject baseItemPrefab;
+    public GameObject adsLockPrefab; // Prefab cho ổ khóa quảng cáo
     
     [Header("Dữ liệu Category")]
     public ItemCategory[] availableCategories; 
 
-    [Header("Cấu hình Lưới")]
+    [Header("Cấu hình Lưới (Grid)")]
     [Range(1, 5)] public int columns = 2;
     [Range(1, 10)] public int rows = 5;
+
     public float spacingX = 3.5f;
     public float spacingY = 2.5f;
 
@@ -73,6 +76,7 @@ public class LevelManager : MonoBehaviour
             {
                 SpawnData data = new SpawnData();
                 data.categoryID = selectedCat.categoryID;
+                data.categoryName = selectedCat.categoryName;
                 data.sprite = selectedCat.sprites[j]; 
                 masterItemList.Add(data);
             }
@@ -86,32 +90,56 @@ public class LevelManager : MonoBehaviour
             masterItemList[randomIndex] = temp;
         }
 
+        // --- TÍNH TOÁN TOẠ ĐỘ GỐC CỦA LƯỚI ---
+        // startX: Dịch lưới sao cho nó nằm giữa màn hình theo trục X
         float startX = -(columns - 1) * spacingX / 2f;
-        float startY = -(rows - 1) * spacingY / 2f;
+        
+        // Cập nhật lại công thức tính startY để hỗ trợ thêm 1 hàng kệ trống ở dưới
+        // Tổng số hàng bây giờ = rows (chứa đồ) + 1 (hàng bị khóa)
+        int totalRowsIncludeLocked = rows + 1;
+        float startY = (totalRowsIncludeLocked - 1) * spacingY / 2f;
+
         int currentItemIndex = 0;
 
-        // Vòng lặp Y đi từ hàng CAO NHẤT (rows - 1) lùi dần về 0
-        for (int y = rows - 1; y >= 0; y--)
+        // 1. SINH RA CÁC HÀNG CHÍNH (CÓ THẺ BÀI)
+        for (int row = 0; row < rows; row++)
         {
-            // Vòng lặp X đi từ TRÁI (0) sang PHẢI (columns)
-            for (int x = 0; x < columns; x++)
+            for (int col = 0; col < columns; col++)
             {
-                Vector2 pos = new Vector2(startX + (x * spacingX), startY + (y * spacingY));
-                GameObject shelf = Instantiate(shelfPrefab, pos, Quaternion.identity, this.transform);
-                shelf.name = $"Shelf_Row{y}_Col{x}";
+                Vector2 pos = new Vector2(startX + (col * spacingX), startY - (row * spacingY));
+                GameObject shelfObj = Instantiate(shelfPrefab, pos, Quaternion.identity, this.transform);
+                shelfObj.name = $"Shelf_Row{row}_Col{col}";
+
+                // Truyền delay đường chéo cho đẹp
+                float shelfBaseDelay = (row + col) * 0.15f;
+                SpawnItemsOnShelf(shelfObj.transform, masterItemList, ref currentItemIndex, shelfBaseDelay);
+            }
+        }
+
+        // 2. SINH RA HÀNG KỆ DỰ PHÒNG Ở DƯỚI CÙNG VÀ BỌC Ổ KHÓA LÊN
+        float bottomY = startY - (rows * spacingY); // Nằm dưới hàng chính cuối cùng
+        
+        // Số lượng ổ khóa bằng số cột của lưới (columns)
+        for (int col = 0; col < columns; col++)
+        {
+            Vector2 pos = new Vector2(startX + (col * spacingX), bottomY);
+            
+            // Đẻ ra cái kệ trống
+            GameObject extraShelfObj = Instantiate(shelfPrefab, pos, Quaternion.identity, this.transform);
+            extraShelfObj.name = $"Shelf_Locked_Col{col}";
+            
+            // Đẻ ra ổ khóa đè lên trên cái kệ
+            if (adsLockPrefab != null)
+            {
+                GameObject lockObj = Instantiate(adsLockPrefab, pos, Quaternion.identity, this.transform);
+                AdsLock lockScript = lockObj.GetComponent<AdsLock>();
                 
-                // --- MỚI: TOÁN HỌC TÍNH ĐƯỜNG CHÉO ---
-                // Chuyển trục Y ngược thành "Hàng từ trên xuống" (0 là hàng cao nhất)
-                int gridRow = (rows - 1) - y; 
-                
-                // Chỉ số đường chéo = Hàng + Cột. Càng vế góc dưới cùng bên phải, số càng to
-                int diagonalIndex = gridRow + x;
-                
-                // Tính độ trễ gốc cho nguyên cái kệ (0.15s cho mỗi nấc đường chéo)
-                float shelfBaseDelay = diagonalIndex * 0.15f; 
-                
-                // Truyền thêm shelfBaseDelay vào hàm
-                SpawnItemsOnShelf(shelf.transform, masterItemList, ref currentItemIndex, shelfBaseDelay);
+                // Lấy Collider của cái kệ và giao cho ổ khóa "bịt mắt" nó lại
+                Collider2D shelfCol = extraShelfObj.GetComponent<Collider2D>();
+                if (lockScript != null && shelfCol != null)
+                {
+                    lockScript.BlockShelf(shelfCol);
+                }
             }
         }
 
@@ -121,7 +149,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    // Đã thêm tham số float shelfBaseDelay
     void SpawnItemsOnShelf(Transform parentShelf, List<SpawnData> dataList, ref int counter, float shelfBaseDelay)
     {
         ShelfController shelfLogic = parentShelf.GetComponent<ShelfController>();
@@ -132,7 +159,7 @@ public class LevelManager : MonoBehaviour
             GameObject itemObj = Instantiate(baseItemPrefab); 
 
             ItemController itemLogic = itemObj.GetComponent<ItemController>();
-            if (itemLogic != null) itemLogic.SetupItem(data.categoryID, data.sprite);
+            if (itemLogic != null) itemLogic.SetupItem(data.categoryID, data.categoryName, data.sprite);
 
             if (shelfLogic != null) 
             {
@@ -143,7 +170,7 @@ public class LevelManager : MonoBehaviour
             ItemAnimation animator = itemObj.GetComponent<ItemAnimation>();
             if (animator != null)
             {
-                // TRỄ LẬT DOMINO = Trễ của kệ + Trễ của từng thẻ trong kệ (0.08s cách nhau)
+                // TRỄ LẬT DOMINO = Trễ của kệ + Trễ của từng thẻ trong kệ (0.1s cách nhau)
                 float finalDelay = shelfBaseDelay + (i * 0.1f); 
                 animator.AnimateIn(finalDelay);
             }

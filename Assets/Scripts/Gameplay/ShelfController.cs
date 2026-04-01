@@ -83,7 +83,9 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
         int id2 = item2.categoryID;
 
         if (id0 == id1 && id1 == id2)
-        {
+        {   
+            string matchName = item0.categoryName;
+            
             GameObject obj0 = slots[0];
             GameObject obj1 = slots[1];
             GameObject obj2 = slots[2];
@@ -95,7 +97,7 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
             // Giao cho Animator làm hiệu ứng nổ, nổ xong thì báo cho GameManager
             if (animator != null)
             {
-                animator.PlayMatchAnimation(obj0, obj1, obj2, () => {
+                animator.PlayMatchAnimation(obj0, obj1, obj2, matchName, () => {
                     GameEvents.OnItemsMatched?.Invoke();
                 });
             }

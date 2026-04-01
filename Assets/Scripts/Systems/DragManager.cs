@@ -20,7 +20,18 @@ public class DragManager : MonoBehaviour
             Collider2D[] hits = Physics2D.OverlapPointAll(mousePos);
 
             foreach (var col in hits)
-            {
+            {   
+                // --- THÊM ĐÚNG ĐOẠN NÀY ĐỂ BẮT SỰ KIỆN CLICK VÀO Ổ KHÓA ---
+                if (col.CompareTag("AdsLock"))
+                {
+                    AdsLock lockScript = col.GetComponent<AdsLock>();
+                    if (lockScript != null)
+                    {
+                        lockScript.Unlock(); // Hiện tại cho mở luôn. Sau này gắn Ads vào đây.
+                        return; // Bấm trúng ổ khóa thì không xét việc cầm nắm item nữa
+                    }
+                }
+                
                 if (col.CompareTag("Item"))
                 {   
                     ItemController itemLogic = col.GetComponent<ItemController>();

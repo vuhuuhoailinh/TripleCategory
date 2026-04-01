@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using System;
+using TMPro;
 
 public class ShelfAnimation : MonoBehaviour
 {
@@ -12,12 +13,20 @@ public class ShelfAnimation : MonoBehaviour
     public float glowDuration = 0.4f;
     public Color glowColor = Color.white; // Chớp sáng màu gì?
 
-    [Header("Cấu hình Match-3 (Nổ)")]
-    public float delayBeforeMatch = 0.25f; // Đợi thẻ trượt vào lỗ xong mới nổ
-    public float matchShrinkDuration = 0.2f; // Tốc độ teo nhỏ
+    [Header("Giao diện Match-3 Text")]
+    public TextMeshPro categoryText;
 
     private SpriteRenderer[] darkenSprites = new SpriteRenderer[3];
     private SpriteRenderer[] highlightSprites = new SpriteRenderer[3];
+    private Vector3 originalTextScale = Vector3.one;
+    void Awake()
+    {
+        if (categoryText != null)
+        {
+            originalTextScale = categoryText.transform.localScale; 
+            categoryText.gameObject.SetActive(false);
+        }
+    }
 
     // Hàm này được ShelfController gọi lúc Start để tự động nạp đạn
     public void Initialize(Transform[] anchors)
@@ -93,41 +102,62 @@ public class ShelfAnimation : MonoBehaviour
         }
     }
 
-    public void PlayMatchAnimation(GameObject obj0, GameObject obj1, GameObject obj2, Action onComplete)
+    public void PlayMatchAnimation(GameObject obj0, GameObject obj1, GameObject obj2, string matchName, Action onComplete)
     {
-        float flipDelay = 0.15f; // Độ trễ giữa các lần lật của 3 viên thẻ (giây)
-        float waitBeforeDestroy = 0.4f; // Thời gian chờ sau khi cả 3 viên đã lật xong
+        float flipDelay = 0.15f; // Độ trễ giữa mỗi thẻ khi lật
+        
+        // Giả định thời gian lật của ItemAnimator là 0.4s. 
+        // Thẻ cuối cùng bắt đầu lật ở (flipDelay * 2), cộng thêm 0.4s để hoàn thành.
+        float timeToFinishAllFlips = (flipDelay * 2) + 0.4f; 
+        
+        float holdDuration = 1.5f;
 
         Sequence seq = DOTween.Sequence();
 
-        // Hàm ẩn giúp gọi lệnh lật của ItemAnimator
-        void AddFlipToSequence(GameObject obj, float delay)
-        {
-            if (obj != null)
-            {
-                ItemAnimation itemAnim = obj.GetComponent<ItemAnimation>();
-                if (itemAnim != null)
-                {
-                    // Chèn lệnh lật thẻ mặt sau vào dòng thời gian
-                    seq.InsertCallback(delay, () => itemAnim.PlayFlipToBack());
-                }
-            }
+        // 1. Lên kịch bản lật úp 3 thẻ lần lượt
+        if (obj0 != null) {
+            ItemAnimation anim0 = obj0.GetComponent<ItemAnimation>();
+            if (anim0 != null) seq.InsertCallback(0f, () => anim0.PlayFlipToBack());
+        }
+        if (obj1 != null) {
+            ItemAnimation anim1 = obj1.GetComponent<ItemAnimation>();
+            if (anim1 != null) seq.InsertCallback(flipDelay, () => anim1.PlayFlipToBack());
+        }
+        if (obj2 != null) {
+            ItemAnimation anim2 = obj2.GetComponent<ItemAnimation>();
+            if (anim2 != null) seq.InsertCallback(flipDelay * 2, () => anim2.PlayFlipToBack());
         }
 
-        // Lên kịch bản lật bài lần lượt
-        AddFlipToSequence(obj0, 0f);
-        AddFlipToSequence(obj1, flipDelay);
-        AddFlipToSequence(obj2, flipDelay * 2);
+        // 2. HIỆN TEXT NGAY SAU KHI THẺ CUỐI CÙNG LẬT XONG
+        if (categoryText != null)
+        {
+            seq.InsertCallback(timeToFinishAllFlips, () => {
+                categoryText.text = matchName.ToUpper();
+                categoryText.gameObject.SetActive(true);
+                
+                categoryText.transform.localScale = Vector3.zero;
+                // SỬA CHỖ NÀY: Dùng originalTextScale thay vì Vector3.one
+                categoryText.transform.DOScale(originalTextScale, 0.3f).SetEase(Ease.OutBack);
+            });
+        }
 
-        // Tính toán tổng thời gian chờ = Thời gian bắt đầu lật viên cuối + Thời gian lật (0.4s) + Thời gian ngâm (0.5s)
-        float totalWaitTime = (flipDelay * 2) + 0.4f + waitBeforeDestroy;
+        // 3. XÓA SẠCH NGAY LẬP TỨC SAU 3 GIÂY NGÂM (Không thu nhỏ)
+        float destroyTime = timeToFinishAllFlips + holdDuration;
 
-        // Chốt kịch bản: Xóa object và báo cáo GameManager
-        seq.InsertCallback(totalWaitTime, () => {
+        seq.InsertCallback(destroyTime, () => {
+            
+            // Tắt Text ngay lập tức
+            if (categoryText != null) 
+            {
+                categoryText.gameObject.SetActive(false);
+            }
+
+            // Tiêu hủy 3 thẻ ngay lập tức
             if (obj0 != null) Destroy(obj0);
             if (obj1 != null) Destroy(obj1);
             if (obj2 != null) Destroy(obj2);
             
+            // Báo cho GameManager biết đã hoàn thành ngay tắp lự
             onComplete?.Invoke();
         });
     }
