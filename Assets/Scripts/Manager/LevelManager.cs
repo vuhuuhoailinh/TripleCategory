@@ -100,18 +100,29 @@ public class LevelManager : MonoBehaviour
                 GameObject shelf = Instantiate(shelfPrefab, pos, Quaternion.identity, this.transform);
                 shelf.name = $"Shelf_Row{y}_Col{x}";
                 
-                SpawnItemsOnShelf(shelf.transform, masterItemList, ref currentItemIndex);
+                // --- MỚI: TOÁN HỌC TÍNH ĐƯỜNG CHÉO ---
+                // Chuyển trục Y ngược thành "Hàng từ trên xuống" (0 là hàng cao nhất)
+                int gridRow = (rows - 1) - y; 
+                
+                // Chỉ số đường chéo = Hàng + Cột. Càng vế góc dưới cùng bên phải, số càng to
+                int diagonalIndex = gridRow + x;
+                
+                // Tính độ trễ gốc cho nguyên cái kệ (0.15s cho mỗi nấc đường chéo)
+                float shelfBaseDelay = diagonalIndex * 0.15f; 
+                
+                // Truyền thêm shelfBaseDelay vào hàm
+                SpawnItemsOnShelf(shelf.transform, masterItemList, ref currentItemIndex, shelfBaseDelay);
             }
         }
 
-        // Báo cáo tổng số hàng hóa cho Trọng tài
         if (GameManager.Instance != null)
         {
             GameEvents.OnLevelGenerated?.Invoke(categoriesNeeded * 3);
         }
     }
 
-void SpawnItemsOnShelf(Transform parentShelf, List<SpawnData> dataList, ref int counter)
+    // Đã thêm tham số float shelfBaseDelay
+    void SpawnItemsOnShelf(Transform parentShelf, List<SpawnData> dataList, ref int counter, float shelfBaseDelay)
     {
         ShelfController shelfLogic = parentShelf.GetComponent<ShelfController>();
 
@@ -123,24 +134,21 @@ void SpawnItemsOnShelf(Transform parentShelf, List<SpawnData> dataList, ref int 
             ItemController itemLogic = itemObj.GetComponent<ItemController>();
             if (itemLogic != null) itemLogic.SetupItem(data.categoryID, data.sprite);
 
-            // Cập nhật hàm SpawnItemsOnShelf
             if (shelfLogic != null) 
             {
                 shelfLogic.AssignItemToSlot(i, itemObj);
-                itemObj.transform.localPosition = Vector3.zero; // BỔ SUNG DÒNG NÀY ĐỂ ÉP VỊ TRÍ KHI MỚI SINH RA
+                itemObj.transform.localPosition = Vector3.zero; 
             }
             
-            ItemAnimator animator = itemObj.GetComponent<ItemAnimator>();
+            ItemAnimation animator = itemObj.GetComponent<ItemAnimation>();
             if (animator != null)
             {
-                // TĂNG DELAY LÊN 0.1s ĐỂ MẮT NGƯỜI NHÌN RÕ HIỆU ỨNG DOMINO LƯỚT TỪNG THẺ
-                float delayTime = counter * 0.025f; 
-                animator.AnimateIn(delayTime);
+                // TRỄ LẬT DOMINO = Trễ của kệ + Trễ của từng thẻ trong kệ (0.08s cách nhau)
+                float finalDelay = shelfBaseDelay + (i * 0.1f); 
+                animator.AnimateIn(finalDelay);
             }
 
             counter++;
         }
-
-        
     }
 }

@@ -226,7 +226,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.9098864
+  orthographic size: 5.442023
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -881,6 +881,7 @@ GameObject:
   - component: {fileID: 1163499405}
   - component: {fileID: 1163499403}
   - component: {fileID: 1163499406}
+  - component: {fileID: 1163499407}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1008,6 +1009,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   maxMoves: 30
   movesText: {fileID: 1533483562}
+--- !u!114 &1163499407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163499402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27186cfe801b66e4f91a49aa82b68b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoardActionManager
 --- !u!1 &1533483560
 GameObject:
   m_ObjectHideFlags: 0

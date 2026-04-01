@@ -9,6 +9,8 @@ public class ItemController : MonoBehaviour
     [Tooltip("Kéo đối tượng con 'Item_Icon' vào đây")]
     public SpriteRenderer iconRenderer; 
 
+    public bool isFaceUp = true; // Mặc định sinh ra là ngửa
+
     public void SetupItem(int catID, Sprite newSprite)
     {
         this.categoryID = catID;

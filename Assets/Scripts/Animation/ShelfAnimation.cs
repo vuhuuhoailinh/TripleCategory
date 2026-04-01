@@ -95,15 +95,40 @@ public class ShelfAnimation : MonoBehaviour
 
     public void PlayMatchAnimation(GameObject obj0, GameObject obj1, GameObject obj2, Action onComplete)
     {
-        DOVirtual.DelayedCall(delayBeforeMatch, () =>
-        {
-            if (obj0 != null) obj0.transform.DOScale(Vector3.zero, matchShrinkDuration).OnComplete(() => Destroy(obj0));
-            if (obj1 != null) obj1.transform.DOScale(Vector3.zero, matchShrinkDuration).OnComplete(() => Destroy(obj1));
-            if (obj2 != null) obj2.transform.DOScale(Vector3.zero, matchShrinkDuration).OnComplete(() => Destroy(obj2));
+        float flipDelay = 0.15f; // Độ trễ giữa các lần lật của 3 viên thẻ (giây)
+        float waitBeforeDestroy = 0.4f; // Thời gian chờ sau khi cả 3 viên đã lật xong
 
-            DOVirtual.DelayedCall(matchShrinkDuration, () => {
-                onComplete?.Invoke(); // Gọi ngược lại cho GameManager để báo hoàn thành
-            });
+        Sequence seq = DOTween.Sequence();
+
+        // Hàm ẩn giúp gọi lệnh lật của ItemAnimator
+        void AddFlipToSequence(GameObject obj, float delay)
+        {
+            if (obj != null)
+            {
+                ItemAnimation itemAnim = obj.GetComponent<ItemAnimation>();
+                if (itemAnim != null)
+                {
+                    // Chèn lệnh lật thẻ mặt sau vào dòng thời gian
+                    seq.InsertCallback(delay, () => itemAnim.PlayFlipToBack());
+                }
+            }
+        }
+
+        // Lên kịch bản lật bài lần lượt
+        AddFlipToSequence(obj0, 0f);
+        AddFlipToSequence(obj1, flipDelay);
+        AddFlipToSequence(obj2, flipDelay * 2);
+
+        // Tính toán tổng thời gian chờ = Thời gian bắt đầu lật viên cuối + Thời gian lật (0.4s) + Thời gian ngâm (0.5s)
+        float totalWaitTime = (flipDelay * 2) + 0.4f + waitBeforeDestroy;
+
+        // Chốt kịch bản: Xóa object và báo cáo GameManager
+        seq.InsertCallback(totalWaitTime, () => {
+            if (obj0 != null) Destroy(obj0);
+            if (obj1 != null) Destroy(obj1);
+            if (obj2 != null) Destroy(obj2);
+            
+            onComplete?.Invoke();
         });
     }
 }

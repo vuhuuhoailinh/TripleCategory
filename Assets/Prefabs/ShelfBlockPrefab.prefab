@@ -374,7 +374,7 @@ MonoBehaviour:
   hoverFadeDuration: 0
   maxDarkenAlpha: 0.5
   glowDuration: 2
-  glowColor: {r: 1, g: 0, b: 0.020431519, a: 1}
+  glowColor: {r: 1, g: 1, b: 1, a: 1}
   delayBeforeMatch: 0.4
   matchShrinkDuration: 0.4
 --- !u!114 &2341063518800918509
