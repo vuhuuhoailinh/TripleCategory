@@ -8,6 +8,8 @@ public class ShelfController : MonoBehaviour
 
     private ShelfAnimation animator; // Thợ diễn hoạt ảnh
 
+    public bool isMatching = false; // Cờ hiệu đang trong quá trình Match-3, để tạm khóa tương tác
+
     void Awake()
     {
         animator = GetComponent<ShelfAnimation>();
@@ -85,7 +87,9 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
         if (id0 == id1 && id1 == id2)
         {   
             string matchName = item0.categoryName;
-            
+
+            isMatching = true; // Bật cờ hiệu đang Match, để tạm khóa tương tác
+
             GameObject obj0 = slots[0];
             GameObject obj1 = slots[1];
             GameObject obj2 = slots[2];
@@ -96,9 +100,10 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
 
             // Giao cho Animator làm hiệu ứng nổ, nổ xong thì báo cho GameManager
             if (animator != null)
-            {
+            {   
                 animator.PlayMatchAnimation(obj0, obj1, obj2, matchName, () => {
-                    GameEvents.OnItemsMatched?.Invoke();
+                    isMatching = false; // Tắt cờ hiệu đang Match, mở khóa tương tác trở lại
+                    GameEvents.OnItemsMatched?.Invoke(this);
                 });
             }
         }

@@ -226,7 +226,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.6468697
+  orthographic size: 4.6400003
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -695,7 +695,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -1}
-  m_SizeDelta: {x: 0, y: 279.1559}
+  m_SizeDelta: {x: 0, y: 211.8753}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &830183552
 CanvasRenderer:
@@ -984,11 +984,78 @@ MonoBehaviour:
     - {fileID: 4921658718828201319, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
     - {fileID: -7339160077382735946, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
   - categoryName: Vegetables
-    categoryID: 12
+    categoryID: 13
     sprites:
     - {fileID: -5477913143808107743, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
     - {fileID: 1754522643957583912, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
     - {fileID: 1469585140838594983, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Planet
+    categoryID: 14
+    sprites:
+    - {fileID: -1086451055928774051, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 1672903435650623444, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: -7780473275188491751, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Police
+    categoryID: 15
+    sprites:
+    - {fileID: 6503715915114249852, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 682285384426397544, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: -8586326432466768864, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Babies
+    categoryID: 15
+    sprites:
+    - {fileID: 2138445909563980145, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 1164370206233280445, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 306685074389512139, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Shoes
+    categoryID: 16
+    sprites:
+    - {fileID: 1407749279082651110, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 1147390007732288519, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+    - {fileID: 170579283535640431, guid: 3e57975c19e815e439158b3756d2d01f, type: 3}
+  - categoryName: Blue Alien
+    categoryID: 17
+    sprites:
+    - {fileID: 5996149434441286979, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 7798573523277025484, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 7222560473123175114, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Green Alien
+    categoryID: 18
+    sprites:
+    - {fileID: -3402559339405764477, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -6712130953873225787, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -7306504126785721368, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Peacock
+    categoryID: 19
+    sprites:
+    - {fileID: 5596094201888774840, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 8259844199728427409, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -8843183135742072487, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Bugs
+    categoryID: 20
+    sprites:
+    - {fileID: -8985618545681476273, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -2621309151790607773, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -3790545263435956005, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Pink Cat
+    categoryID: 21
+    sprites:
+    - {fileID: 7644642192426429234, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -5320454478184660125, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -5746042237384682034, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Umbrella
+    categoryID: 22
+    sprites:
+    - {fileID: 2978451750268183965, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 3613383629983338428, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 9007234770987901119, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  - categoryName: Sunglasses
+    categoryID: 23
+    sprites:
+    - {fileID: -4774970929881554166, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: -5559701235608136826, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+    - {fileID: 2410930213646472612, guid: 6ff16e83d438238409ff3f71b8420949, type: 3}
+  totalCategoriesForLevel: 15
   columns: 2
   rows: 5
   spacingX: 2.4

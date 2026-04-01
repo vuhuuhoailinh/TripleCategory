@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ItemsMatched()
+    public void ItemsMatched(ShelfController shelf)
     {
         if (isGameOver) return;
         
