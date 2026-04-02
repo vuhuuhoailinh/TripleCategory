@@ -7,14 +7,14 @@ public class AdsLock : MonoBehaviour
     private Collider2D targetShelfCollider;
 
     [Header("Fade Target")]
-    [SerializeField] private GameObject fadeTarget;
+    [SerializeField] private GameObject fadeTarget = null;
 
     [Header("Fade Settings")]
     [SerializeField] private float fadeDuration = 0.4f;
     [SerializeField] private float delayBeforeDestroy = 0.1f;
 
-    private SpriteRenderer[] spriteRenderers;
-    private TextMeshPro[] textMeshes;
+    private SpriteRenderer[] spriteRenderers = System.Array.Empty<SpriteRenderer>();
+    private TextMeshPro[] textMeshes = System.Array.Empty<TextMeshPro>();
 
     void Awake()
     {
@@ -42,19 +42,16 @@ public class AdsLock : MonoBehaviour
             targetShelfCollider.enabled = true;
         }
 
-        // Fade Sprite
         foreach (var sr in spriteRenderers)
         {
             sr.DOFade(0f, fadeDuration);
         }
 
-        // Fade TextMeshPro (3D)
         foreach (var tmp in textMeshes)
         {
             tmp.DOFade(0f, fadeDuration);
         }
 
-        // Delay destroy
         DOVirtual.DelayedCall(fadeDuration + delayBeforeDestroy, () =>
         {
             Destroy(gameObject);

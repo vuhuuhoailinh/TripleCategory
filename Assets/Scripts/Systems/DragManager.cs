@@ -1,64 +1,86 @@
 using UnityEngine;
+using DG.Tweening;
 
 public class DragManager : MonoBehaviour
 {
-    [Header("Trạng thái Kéo Thả")]
-    private GameObject draggedItem;     
-    private Vector3 startPosition;      
-    private Transform startAnchor;      
-    private Vector3 originalScale;      
+    [Header("Trạng thái kéo thả")]
+    private GameObject draggedItem;
+    private Vector3 startPosition;
+    private Transform startAnchor;
+    private Vector3 originalScale;
 
-    private ShelfController currentHoveredShelf; 
-    private ItemAnimation currentItemAnim; // Lưu tạm để gọi cho nhanh
+    private ShelfController currentHoveredShelf;
+    private ItemAnimation currentItemAnim;
+
+    private bool IsInputLocked()
+    {
+        return GameManager.Instance != null && GameManager.Instance.isGameOver;
+    }
 
     void Update()
     {
-        // 1. NHẤC LÊN
+        if (IsInputLocked())
+        {
+            if (draggedItem != null)
+            {
+                ForceDropCard();
+            }
+            return;
+        }
+
+        if (!Input.GetMouseButton(0) && draggedItem != null)
+        {
+            ForceDropCard();
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D[] hits = Physics2D.OverlapPointAll(mousePos);
 
             foreach (var col in hits)
-            {   
-                // --- THÊM ĐÚNG ĐOẠN NÀY ĐỂ BẮT SỰ KIỆN CLICK VÀO Ổ KHÓA ---
+            {
                 if (col.CompareTag("AdsLock"))
                 {
                     AdsLock lockScript = col.GetComponent<AdsLock>();
                     if (lockScript != null)
                     {
-                        lockScript.Unlock(); // Hiện tại cho mở luôn. Sau này gắn Ads vào đây.
-                        return; // Bấm trúng ổ khóa thì không xét việc cầm nắm item nữa
+                        GameEvents.OnUIClick?.Invoke();
+                        lockScript.Unlock();
+                        return;
                     }
                 }
-                
+
                 if (col.CompareTag("Item"))
-                {   
+                {
                     ItemController itemLogic = col.GetComponent<ItemController>();
-                    if (itemLogic != null && !itemLogic.isFaceUp) continue; // Cấm bốc thẻ úp
+                    if (itemLogic != null && !itemLogic.isFaceUp)
+                    {
+                        continue;
+                    }
 
                     draggedItem = col.gameObject;
                     startPosition = draggedItem.transform.localPosition;
-                    startAnchor = draggedItem.transform.parent; 
-                    originalScale = draggedItem.transform.localScale; 
-                    
+                    startAnchor = draggedItem.transform.parent;
+                    originalScale = draggedItem.transform.localScale;
+
                     draggedItem.GetComponent<Collider2D>().enabled = false;
 
-                    // Gọi Item tự làm nổi hình ảnh nó lên
                     currentItemAnim = draggedItem.GetComponent<ItemAnimation>();
-                    if (currentItemAnim != null) 
+                    if (currentItemAnim != null)
                     {
                         currentItemAnim.ElevateSortingOrder();
                         currentItemAnim.StartDrag();
                     }
 
-                    draggedItem.transform.localScale = originalScale * 1.15f; 
+                    draggedItem.transform.localScale = originalScale * 1.15f;
+                    GameEvents.OnCardPicked?.Invoke();
                     break;
                 }
             }
         }
 
-        // 2. KÉO ĐI VÀ HOVER DARKEN
         if (Input.GetMouseButton(0) && draggedItem != null)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -74,64 +96,116 @@ public class DragManager : MonoBehaviour
                 if (shelf != null)
                 {
                     newHoveredShelf = shelf;
-                    closestSlot = shelf.GetClosestSlotAny(mousePos); 
+                    closestSlot = shelf.GetClosestSlotAny(mousePos);
                     break;
                 }
             }
 
             if (currentHoveredShelf != null && currentHoveredShelf != newHoveredShelf)
+            {
                 currentHoveredShelf.ClearHover();
+            }
 
             if (newHoveredShelf != null && closestSlot != -1)
+            {
                 newHoveredShelf.ShowHover(closestSlot);
+            }
 
             currentHoveredShelf = newHoveredShelf;
         }
 
-        // 3. THẢ XUỐNG
         if (Input.GetMouseButtonUp(0) && draggedItem != null)
         {
-            if (currentHoveredShelf != null)
+            ForceDropCard();
+        }
+    }
+
+    private void ForceDropCard()
+    {
+        if (currentHoveredShelf != null)
+        {
+            currentHoveredShelf.ClearHover();
+            currentHoveredShelf = null;
+        }
+
+        if (draggedItem == null)
+        {
+            return;
+        }
+
+        Vector2 dropPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Collider2D[] dropHits = Physics2D.OverlapPointAll(dropPos);
+
+        Collider2D draggedCollider = draggedItem.GetComponent<Collider2D>();
+        if (draggedCollider != null)
+        {
+            draggedCollider.enabled = true;
+        }
+
+        draggedItem.transform.localScale = originalScale;
+        if (currentItemAnim != null)
+        {
+            currentItemAnim.RestoreSortingOrder();
+        }
+
+        GameObject targetItem = null;
+        GameObject targetShelf = null;
+
+        foreach (var col in dropHits)
+        {
+            if (col.CompareTag("Item") && col.gameObject != draggedItem)
             {
-                currentHoveredShelf.ClearHover();
-                currentHoveredShelf = null;
+                targetItem = col.gameObject;
             }
 
-            Vector2 dropPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D[] dropHits = Physics2D.OverlapPointAll(dropPos);
-
-            draggedItem.GetComponent<Collider2D>().enabled = true;
-            draggedItem.transform.localScale = originalScale;
-
-            if (currentItemAnim != null) currentItemAnim.RestoreSortingOrder();
-
-            GameObject targetItem = null;
-            GameObject targetShelf = null;
-
-            foreach (var col in dropHits)
+            if (col.CompareTag("Shelf"))
             {
-                if (col.CompareTag("Item") && col.gameObject != draggedItem) targetItem = col.gameObject;
-                if (col.CompareTag("Shelf")) targetShelf = col.gameObject;
+                targetShelf = col.gameObject;
             }
+        }
 
-            // ỦY QUYỀN CHO BOARD ACTION MANAGER XỬ LÝ LUẬT CHƠI
-            bool actionSuccessful = false;
+        GameObject itemToDrop = draggedItem;
+        ItemAnimation animToDrop = currentItemAnim;
+        Transform origAnchor = startAnchor;
+        Vector3 origPos = startPosition;
+
+        draggedItem = null;
+        currentItemAnim = null;
+
+        bool actionSuccessful = false;
+        try
+        {
             if (BoardActionManager.Instance != null)
             {
                 actionSuccessful = BoardActionManager.Instance.TryProcessDrop(
-                    draggedItem, targetItem, targetShelf, startAnchor, startPosition, dropPos);
+                    itemToDrop, targetItem, targetShelf, origAnchor, origPos, dropPos);
             }
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Co loi khi tha bai: " + e.Message);
+        }
 
-            // THẢ TRƯỢT -> Trượt về vị trí cũ
-            if (!actionSuccessful)
+        if (!actionSuccessful && itemToDrop != null)
+        {
+            itemToDrop.transform.SetParent(origAnchor);
+            float failSlideTime = 0.25f;
+
+            if (animToDrop != null)
             {
-                draggedItem.transform.SetParent(startAnchor);
-                if (currentItemAnim != null) currentItemAnim.StopDragAndDrop(startPosition);
-                else draggedItem.transform.localPosition = startPosition;
+                animToDrop.StopDragAndDrop(origPos);
+                failSlideTime = animToDrop.dropDuration;
+            }
+            else
+            {
+                itemToDrop.transform.localPosition = origPos;
+                failSlideTime = 0f;
             }
 
-            draggedItem = null; 
-            currentItemAnim = null;
+            DOVirtual.DelayedCall(failSlideTime, () =>
+            {
+                GameEvents.OnCardDropped?.Invoke();
+            });
         }
     }
 }

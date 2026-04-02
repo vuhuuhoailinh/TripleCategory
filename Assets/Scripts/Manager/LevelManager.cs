@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-using DG.Tweening; // Cần thêm thư viện này để dùng DOVirtual nếu cần
+using DG.Tweening; 
 
 [System.Serializable]
 public class ItemCategory
@@ -23,13 +23,10 @@ public class LevelManager : MonoBehaviour
     public GameObject shelfPrefab;    
     public GameObject baseItemPrefab;
     public GameObject adsLockPrefab; 
+    public GameObject winPanelPrefab; // ĐỂ CHỨA CÁI WINPANEL
     
     [Header("Dữ liệu Category")]
     public ItemCategory[] availableCategories; 
-
-    [Header("Cấu hình Level (Hàng chờ)")]
-    [Tooltip("Tổng số category cần clear trong màn này (Kho đạn)")]
-    public int totalCategoriesForLevel = 30; 
 
     [Header("Cấu hình Lưới (Grid)")]
     [Range(1, 5)] public int columns = 2;
@@ -38,38 +35,40 @@ public class LevelManager : MonoBehaviour
     public float spacingX = 3.5f;
     public float spacingY = 2.5f;
 
-    // --- MỚI: CÁC BIẾN QUẢN LÝ KHO ĐẠN VÀ KỆ TRỐNG ---
+    // Các biến quản lý kho
     private List<SpawnData> masterItemList = new List<SpawnData>();
-    private int currentItemIndex = 0; // Đang bốc đến lá bài thứ mấy trong kho
-    private List<ShelfController> activeShelves = new List<ShelfController>(); // Danh sách các kệ chính
+    private int currentItemIndex = 0; 
+    private List<ShelfController> activeShelves = new List<ShelfController>(); 
 
     void Start()
     {
         GenerateLevel();
     }
 
-    // --- MỚI: Lắng nghe sự kiện nổ thẻ của GameEvents ---
     private void OnEnable() 
     {
         GameEvents.OnItemsMatched += HandleShelfCleared;
-        GameEvents.OnMoveUsed += CheckForEmptyShelves; // MỚI: Nghe tiếng di chuyển thẻ
+        GameEvents.OnMoveUsed += CheckForEmptyShelves; 
+        GameEvents.OnLevelWin += ShowWinPanel; // Kênh nổ WinPanel
     }
+    
     private void OnDisable() 
     {
         GameEvents.OnItemsMatched -= HandleShelfCleared;
         GameEvents.OnMoveUsed -= CheckForEmptyShelves;
+        GameEvents.OnLevelWin -= ShowWinPanel;
     }
+
     void GenerateLevel()
     {
         if (shelfPrefab == null || baseItemPrefab == null || availableCategories == null || availableCategories.Length == 0) return;
 
-        // Reset dữ liệu kho mỗi khi chơi lại level
         masterItemList.Clear();
         activeShelves.Clear();
         currentItemIndex = 0;
 
-        // TỔNG SỐ CATEGORY CỦA TOÀN BỘ MÀN CHƠI
-        int categoriesNeeded = totalCategoriesForLevel; 
+        // --- ĐÃ SỬA: Lấy số lượng từ GameManager ---
+        int categoriesNeeded = GameManager.Instance.targetCategories; 
 
         List<ItemCategory> shuffledCategories = new List<ItemCategory>(availableCategories);
         for (int i = 0; i < shuffledCategories.Count; i++)
@@ -80,17 +79,11 @@ public class LevelManager : MonoBehaviour
             shuffledCategories[randomIndex] = temp;
         }
 
-        // Tạo ra kho đạn khổng lồ
         for (int i = 0; i < categoriesNeeded; i++)
         {
-            // Dùng [i % Count] để nếu bạn setting 30 categories mà kho chỉ có 10, nó sẽ quay vòng lại dùng tiếp cho đủ 30
             ItemCategory selectedCat = shuffledCategories[i % shuffledCategories.Count];
 
-            if (selectedCat.sprites.Length < 3)
-            {
-                Debug.LogError($"<color=red>LỖI:</color> Category '{selectedCat.categoryName}' không đủ 3 ảnh!");
-                return;
-            }
+            if (selectedCat.sprites.Length < 3) continue;
 
             for (int j = 0; j < 3; j++)
             {
@@ -102,7 +95,6 @@ public class LevelManager : MonoBehaviour
             }
         }
 
-        // XÁO TRỘN TOÀN BỘ KHO ĐẠN (Để lúc nạp đạn vào kệ sẽ ra random)
         for (int i = 0; i < masterItemList.Count; i++)
         {
             int randomIndex = Random.Range(i, masterItemList.Count);
@@ -115,7 +107,6 @@ public class LevelManager : MonoBehaviour
         int totalRowsIncludeLocked = rows + 1;
         float startY = (totalRowsIncludeLocked - 1) * spacingY / 2f;
 
-        // 1. SINH RA CÁC HÀNG CHÍNH VÀ ĐỔ ĐỒ TỪ KHO
         for (int row = 0; row < rows; row++)
         {
             for (int col = 0; col < columns; col++)
@@ -125,16 +116,13 @@ public class LevelManager : MonoBehaviour
                 shelfObj.name = $"Shelf_Row{row}_Col{col}";
 
                 ShelfController shelfLogic = shelfObj.GetComponent<ShelfController>();
-                if (shelfLogic != null) activeShelves.Add(shelfLogic); // Đưa vào sổ nam tào để theo dõi
+                if (shelfLogic != null) activeShelves.Add(shelfLogic); 
 
                 float shelfBaseDelay = (row + col) * 0.15f;
-                
-                // Trút 3 thẻ từ kho vào kệ này
                 SpawnItemsOnShelf(shelfObj.transform, masterItemList, ref currentItemIndex, shelfBaseDelay);
             }
         }
 
-        // 2. SINH RA HÀNG KỆ DỰ PHÒNG Ở DƯỚI CÙNG VÀ BỌC Ổ KHÓA LÊN
         float bottomY = startY - (rows * spacingY); 
         for (int col = 0; col < columns; col++)
         {
@@ -163,8 +151,6 @@ public class LevelManager : MonoBehaviour
 
         for (int i = 0; i < 3; i++)
         {
-            // --- MỚI: BẢO VỆ CHỐNG TRÀN ---
-            // Nếu đã bốc hết kho đạn thì dừng lại, không sinh thêm thẻ nào nữa
             if (counter >= dataList.Count) break; 
 
             SpawnData data = dataList[counter];
@@ -180,19 +166,15 @@ public class LevelManager : MonoBehaviour
             }
             
             ItemAnimation animator = itemObj.GetComponent<ItemAnimation>();
-            if (animator != null)
-            {
-                float finalDelay = shelfBaseDelay + (i * 0.1f); 
-                animator.AnimateIn(finalDelay);
-            }
+            if (animator != null) animator.AnimateIn(shelfBaseDelay + (i * 0.1f));
 
             counter++;
         }
     }
 
-    // --- MỚI: HÀM NÀY CHẠY MỖI KHI CÓ MỘT KỆ NỔ MATCH-3 XONG ---
+    // --- ĐÃ SỬA: Hàm này giờ chỉ lo check nạp đạn ---
     void HandleShelfCleared(ShelfController clearedShelf)
-    {
+    {   
         CheckForEmptyShelves();
     }
 
@@ -200,16 +182,11 @@ public class LevelManager : MonoBehaviour
     {
         foreach (ShelfController shelf in activeShelves)
         {
-            // Bảo vệ chống tràn kho
             if (currentItemIndex >= masterItemList.Count) return; 
 
             if (IsShelfTotallyEmpty(shelf))
             {
-                // Delay 0.2s để tấm thẻ mà bạn vừa bốc có thời gian trượt đi chỗ khác
                 DOVirtual.DelayedCall(0.2f, () => {
-                    
-                    // Lớp bảo vệ 2: Check lại lần nữa xem kệ có CÒN trống không 
-                    // (Phòng hờ trong 0.2s đó bạn "tay nhanh hơn não" lại ném 1 thẻ khác vào)
                     if (IsShelfTotallyEmpty(shelf) && currentItemIndex < masterItemList.Count) 
                     {
                         SpawnItemsOnShelf(shelf.transform, masterItemList, ref currentItemIndex, 0f);
@@ -219,19 +196,17 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    // Hàm kiểm tra xem kệ có thực sự trống không (không có thẻ bài nào trên đó)
-// Hàm kiểm tra kệ trống tuyệt đối (Giữ nguyên)
     bool IsShelfTotallyEmpty(ShelfController shelf)
     {
         if (shelf == null || shelf.isMatching) return false;
-        
         for (int i = 0; i < 3; i++)
-        {
-            if (shelf.slots[i] != null && shelf.slots[i].GetComponent<ItemController>() != null)
-            {
-                return false;
-            }
-        }
+            if (shelf.slots[i] != null && shelf.slots[i].GetComponent<ItemController>() != null) return false;
         return true;
+    }
+
+    // Nổ WinPanel
+    private void ShowWinPanel()
+    {
+        if (winPanelPrefab != null) Instantiate(winPanelPrefab);
     }
 }

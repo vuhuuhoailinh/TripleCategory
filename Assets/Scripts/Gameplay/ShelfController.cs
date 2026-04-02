@@ -89,7 +89,8 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
             string matchName = item0.categoryName;
 
             isMatching = true; // Bật cờ hiệu đang Match, để tạm khóa tương tác
-
+            GameEvents.OnMatchDetected?.Invoke();
+            
             GameObject obj0 = slots[0];
             GameObject obj1 = slots[1];
             GameObject obj2 = slots[2];
@@ -97,6 +98,7 @@ public int GetClosestEmptySlot(Vector2 dropPosition)
             slots[0] = slotAnchors[0].gameObject;
             slots[1] = slotAnchors[1].gameObject;
             slots[2] = slotAnchors[2].gameObject;
+            
 
             // Giao cho Animator làm hiệu ứng nổ, nổ xong thì báo cho GameManager
             if (animator != null)
