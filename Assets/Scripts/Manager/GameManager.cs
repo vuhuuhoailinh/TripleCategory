@@ -1,5 +1,4 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
@@ -14,7 +13,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [Header("Level Settings")]
-    [Tooltip("Cau hinh moi man. Neu vuot qua so man da khai bao, game se lap lai config cuoi cung.")]
     public LevelConfig[] levelConfigs =
     {
         new LevelConfig { targetCategories = 10, maxMoves = 30 },
@@ -32,23 +30,16 @@ public class GameManager : MonoBehaviour
     private int movesPerLevel;
     public bool isGameOver { get; private set; }
 
-    [Header("HUD")]
-    public TextMeshProUGUI movesText;
-    public TextMeshProUGUI levelText;
-    public TextMeshProUGUI progressText;
-
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            Application.targetFrameRate = 60;
             currentLevel = PlayerPrefs.GetInt("CurrentLevel", 1);
             ApplyLevelConfig();
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        else Destroy(gameObject);
     }
 
     void Start()
@@ -62,7 +53,10 @@ public class GameManager : MonoBehaviour
         currentMoves = movesPerLevel;
         clearedCategories = 0;
 
-        UpdateUIText();
+        // PHÁT THANH TRẠNG THÁI BAN ĐẦU LÊN UI
+        GameEvents.OnLevelChanged?.Invoke(currentLevel);
+        GameEvents.OnMovesUpdated?.Invoke(currentMoves);
+        GameEvents.OnProgressUpdated?.Invoke(clearedCategories, targetCategories);
     }
 
     private void ApplyLevelConfig()
@@ -74,11 +68,7 @@ public class GameManager : MonoBehaviour
 
     private LevelConfig GetLevelConfigForCurrentLevel()
     {
-        if (levelConfigs == null || levelConfigs.Length == 0)
-        {
-            return new LevelConfig();
-        }
-
+        if (levelConfigs == null || levelConfigs.Length == 0) return new LevelConfig();
         int index = Mathf.Clamp(currentLevel - 1, 0, levelConfigs.Length - 1);
         return levelConfigs[index] ?? new LevelConfig();
     }
@@ -88,12 +78,13 @@ public class GameManager : MonoBehaviour
         if (isGameOver) return;
 
         currentMoves--;
-        UpdateUIText();
+        GameEvents.OnMovesUpdated?.Invoke(currentMoves); // BÁO LÊN UI
 
         if (currentMoves <= 0 && clearedCategories < targetCategories)
         {
             Debug.Log("<color=red>OUT OF MOVES! YOU LOSE!</color>");
             isGameOver = true;
+            GameEvents.OnLevelLose?.Invoke();
         }
     }
 
@@ -102,7 +93,7 @@ public class GameManager : MonoBehaviour
         if (clearedCategories >= targetCategories) return;
 
         clearedCategories++;
-        UpdateUIText();
+        GameEvents.OnProgressUpdated?.Invoke(clearedCategories, targetCategories); // BÁO LÊN UI
 
         if (clearedCategories >= targetCategories)
         {
@@ -110,13 +101,6 @@ public class GameManager : MonoBehaviour
             isGameOver = true;
             GameEvents.OnLevelWin?.Invoke();
         }
-    }
-
-    void UpdateUIText()
-    {
-        if (movesText != null) movesText.text = "Moves: " + currentMoves;
-        if (levelText != null) levelText.text = "Level: " + currentLevel;
-        if (progressText != null) progressText.text = clearedCategories + "/" + targetCategories;
     }
 
     public void NextLevel()

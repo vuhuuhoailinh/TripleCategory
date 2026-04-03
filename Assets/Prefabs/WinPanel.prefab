@@ -120,10 +120,10 @@ MonoBehaviour:
   continueButton: {fileID: 6721342098127046479}
   overlayFadeDuration: 0.4
   textInitialDelay: 0.2
-  letterDelay: 0.2
-  letterAnimDuration: 0.6
+  letterDelay: 0.02
+  letterAnimDuration: 0.4
   buttonExtraDelay: 0.2
-  buttonAnimDuration: 0.6
+  buttonAnimDuration: 0.4
 --- !u!1 &1933191762175836980
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,11 +445,11 @@ RectTransform:
   - {fileID: 5579951413311508226}
   m_Father: {fileID: 2723731306147796931}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: -45}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 133, y: 684}
-  m_SizeDelta: {x: 189.1684, y: 190.928}
-  m_Pivot: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -20, y: -311}
+  m_SizeDelta: {x: 189.1684, y: 190.92798}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4432552964784741552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -883,11 +883,11 @@ RectTransform:
   - {fileID: 3909794772222471716}
   m_Father: {fileID: 2723731306147796931}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 28, y: -383}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 28.000032, y: 236.13806}
   m_SizeDelta: {x: 729.61, y: 425.7238}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3602283948512373621
 CanvasRenderer:
   m_ObjectHideFlags: 0

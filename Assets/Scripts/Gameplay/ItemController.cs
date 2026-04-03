@@ -9,7 +9,7 @@ public class ItemController : MonoBehaviour
     [Header("Thanh phan giao dien")]
     [Tooltip("Keo SpriteRenderer cua object con 'Item_Icon' vao day")]
     public SpriteRenderer iconRenderer;
-
+    public SpawnData originalData;
     public bool isFaceUp = true;
 
     public void SetupItem(int catID, string catName, Sprite newSprite)
@@ -23,5 +23,6 @@ public class ItemController : MonoBehaviour
         }
 
         gameObject.name = $"Item_{catName}_{newSprite.name}";
+        originalData = new SpawnData { categoryID = catID, categoryName = catName, sprite = newSprite };
     }
 }

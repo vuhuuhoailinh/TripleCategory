@@ -21,22 +21,34 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        // Bật nhạc nền ngay khi vào game
+        // 1. Đọc trạng thái từ bộ nhớ (Mặc định là 1 - Bật)
+        bool isBGMOn = PlayerPrefs.GetInt("BGM_ON", 1) == 1;
+        bool isSFXOn = PlayerPrefs.GetInt("SFX_ON", 1) == 1;
+
+        // 2. Áp dụng ngay lập tức
+        if (bgmSource != null) bgmSource.mute = !isBGMOn;
+        if (sfxSource != null) sfxSource.mute = !isSFXOn;
+
+        // 3. Phát nhạc nền
         if (bgmSource != null && bgmClip != null)
         {
             bgmSource.clip = bgmClip;
-            bgmSource.loop = true; // Đảm bảo nhạc nền lặp lại
+            bgmSource.loop = true; 
             bgmSource.Play();
         }
     }
 
-    private void OnEnable()
+private void OnEnable()
     {
         GameEvents.OnCardPicked += PlayPickSound;
         GameEvents.OnCardDropped += PlayDropSound;
         GameEvents.OnMatchDetected += PlayMatchSound;
         GameEvents.OnLevelWin += PlayWinSound;
         GameEvents.OnUIClick += PlayClickSound;
+        
+        // --- THÊM 2 DÒNG NÀY ĐỂ NGHE LỆNH TỪ SETTING PANEL ---
+        GameEvents.OnBGMToggled += ToggleBGM;
+        GameEvents.OnSFXToggled += ToggleSFX;
     }
 
     private void OnDisable()
@@ -46,6 +58,10 @@ public class SoundManager : MonoBehaviour
         GameEvents.OnMatchDetected -= PlayMatchSound;
         GameEvents.OnLevelWin -= PlayWinSound;
         GameEvents.OnUIClick -= PlayClickSound;
+        
+        // --- NHỚ RÚT DÂY KHI HUỶ ---
+        GameEvents.OnBGMToggled -= ToggleBGM;
+        GameEvents.OnSFXToggled -= ToggleSFX;
     }
 
     // --- CÁC HÀM PHÁT ÂM THANH ---
@@ -65,5 +81,16 @@ public class SoundManager : MonoBehaviour
     public void PlayUIButtonClick()
     {
         PlayClickSound();
+    }
+
+    private void ToggleBGM(bool isOn)
+    {
+        // mute = true nghĩa là bị tắt tiếng (im lặng)
+        if (bgmSource != null) bgmSource.mute = !isOn; 
+    }
+
+    private void ToggleSFX(bool isOn)
+    {
+        if (sfxSource != null) sfxSource.mute = !isOn;
     }
 }

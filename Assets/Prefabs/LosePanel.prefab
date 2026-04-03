@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4104461315960657070}
   - component: {fileID: 1722206660793609625}
   - component: {fileID: 4739605329813391069}
+  - component: {fileID: 4632623482449691669}
   m_Layer: 5
   m_Name: LosePanel
   m_TagString: Untagged
@@ -77,9 +78,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1080, y: 0}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.317
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -102,6 +103,28 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4632623482449691669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175098490966432163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b5d6d689ebbd743a0ea6bcd2a03e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LosePanel
+  overlayGroup: {fileID: 5422007059089250424}
+  panelContainer: {fileID: 0}
+  textContainer: {fileID: 4491738948542721155}
+  replayButton: {fileID: 4181192994784645994}
+  overlayFadeDuration: 0.4
+  textInitialDelay: 0.3
+  letterDelay: 0.02
+  letterAnimDuration: 0.4
+  buttonExtraDelay: 0.2
+  buttonAnimDuration: 0.4
 --- !u!1 &2087444166447604003
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +361,7 @@ GameObject:
   - component: {fileID: 5567033243379077606}
   - component: {fileID: 3485907767687704781}
   - component: {fileID: 1822507122443391996}
+  - component: {fileID: 5422007059089250424}
   m_Layer: 5
   m_Name: Overlay
   m_TagString: Untagged
@@ -404,6 +428,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &5422007059089250424
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096186879795879972}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &4321529769576953520
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,8 +775,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -236}
-  m_SizeDelta: {x: 506, y: 504}
+  m_AnchoredPosition: {x: 12.999995, y: -320.49994}
+  m_SizeDelta: {x: 506, y: 505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5208207181622383932
 CanvasRenderer:
@@ -823,7 +859,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8039677880582505524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4632623482449691669}
+        m_TargetAssemblyTypeName: LosePanel, Assembly-CSharp
+        m_MethodName: OnClickReplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5314702361611614752
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,11 +987,11 @@ RectTransform:
   - {fileID: 3441989065065688558}
   m_Father: {fileID: 5567033243379077606}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.65000004}
+  m_AnchorMax: {x: 0.5, y: 0.65000004}
+  m_AnchoredPosition: {x: 0, y: -342}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &6505263358743915509
 GameObject:
   m_ObjectHideFlags: 0

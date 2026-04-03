@@ -15,8 +15,16 @@ public static class GameEvents
 
     public static Action OnMatchDetected;
     public static Action OnLevelWin;
+    public static Action OnLevelLose;
     public static Action OnUIClick;
 
-    public static Action<int> OnLevelChanged;  
+    public static Action<bool> OnBGMToggled; 
+    public static Action<bool> OnSFXToggled;
+
+    public static Action<int> OnLevelChanged;             // Truyền số Level
+    public static Action<int> OnMovesUpdated;             // Truyền số Moves còn lại
     public static Action<int, int> OnProgressUpdated;
+
+    public static Action OnShuffleRequested;
+    
 }

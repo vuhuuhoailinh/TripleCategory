@@ -1,6 +1,7 @@
 using UnityEngine;
 
-[ExecuteInEditMode] // Cho phép chạy ngay trong Editor để căn lề không cần bấm Play
+[ExecuteAlways] // Chạy ngay trong Editor để căn lề trực tiếp
+[RequireComponent(typeof(Camera))]
 public class CameraScaler : MonoBehaviour
 {
     [Header("Tham chiếu Background")]
@@ -8,29 +9,41 @@ public class CameraScaler : MonoBehaviour
     public SpriteRenderer backgroundSprite;
 
     [Header("Căn chỉnh lề Camera")]
-    [Tooltip("Tỉ lệ phần mặt kệ (bỏ qua viền ngoài) so với tổng chiều ngang ảnh. Số càng lớn, viền ngoài càng ít.")]
+    [Tooltip("Tỉ lệ phần mặt kệ chứa Shelves so với tổng chiều ngang ảnh gốc (Ví dụ: 0.9)")]
     [Range(0.5f, 1f)]
     public float innerWidthRatio = 0.9f;
 
+    private Camera cam;
+
+    void Start()
+    {
+        cam = GetComponent<Camera>();
+        AdjustCameraToFitBackground();
+    }
+
     void Update()
     {
-        AdjustCameraToFitBackground();
+        // Liên tục cập nhật trong Editor khi bạn kéo Simulator
+        #if UNITY_EDITOR
+        if (!Application.isPlaying)
+        {
+            AdjustCameraToFitBackground();
+        }
+        #endif
     }
 
     void AdjustCameraToFitBackground()
     {
-        // Kiểm tra xem đã kéo Background vào chưa, nếu chưa thì bỏ qua để tránh báo lỗi đỏ
-        if (backgroundSprite == null || backgroundSprite.sprite == null || Camera.main == null) return;
+        if (cam == null) cam = GetComponent<Camera>();
+        if (cam == null || backgroundSprite == null || backgroundSprite.sprite == null) return;
 
-        // 1. Lấy chiều ngang tổng của bức ảnh gốc (tính bằng World Units)
+        // 1. Lấy chiều ngang thực tế của bức ảnh Background
         float totalSpriteWidth = backgroundSprite.sprite.bounds.size.x;
 
-        // 2. Tính chiều ngang của vùng mặt kệ bên trong mà ta muốn Camera lấy trọn
+        // 2. Tính chiều ngang của vùng "Safe Zone" mà ta muốn Camera lấy trọn
         float targetInnerWidth = totalSpriteWidth * innerWidthRatio;
 
-        // 3. TOÁN HỌC CAMERA ORTHOGRAPHIC:
-        // Chiều ngang của Camera = orthographicSize * 2 * Tỉ lệ màn hình (Aspect)
-        // => Suy ra: orthographicSize = Chiều ngang muốn có / (2 * Aspect)
-        Camera.main.orthographicSize = targetInnerWidth / (2f * Camera.main.aspect);
+        // 3. Tính toán độ zoom của Camera (Orthographic Size)
+        cam.orthographicSize = targetInnerWidth / (2f * cam.aspect);
     }
 }

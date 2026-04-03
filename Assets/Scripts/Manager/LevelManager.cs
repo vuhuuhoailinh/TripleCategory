@@ -23,7 +23,8 @@ public class LevelManager : MonoBehaviour
     public GameObject shelfPrefab;    
     public GameObject baseItemPrefab;
     public GameObject adsLockPrefab; 
-    public GameObject winPanelPrefab; // ĐỂ CHỨA CÁI WINPANEL
+    public GameObject winPanelPrefab;
+    public GameObject losePanelPrefab;
     
     [Header("Dữ liệu Category")]
     public ItemCategory[] availableCategories; 
@@ -36,10 +37,15 @@ public class LevelManager : MonoBehaviour
     public float spacingY = 2.5f;
 
     // Các biến quản lý kho
-    private List<SpawnData> masterItemList = new List<SpawnData>();
-    private int currentItemIndex = 0; 
-    private List<ShelfController> activeShelves = new List<ShelfController>(); 
+    public List<SpawnData> masterItemList = new List<SpawnData>();
+    public int currentItemIndex = 0; 
+    public static LevelManager Instance;
+    public List<ShelfController> activeShelves = new List<ShelfController>(); 
 
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
     void Start()
     {
         GenerateLevel();
@@ -50,6 +56,7 @@ public class LevelManager : MonoBehaviour
         GameEvents.OnItemsMatched += HandleShelfCleared;
         GameEvents.OnMoveUsed += CheckForEmptyShelves; 
         GameEvents.OnLevelWin += ShowWinPanel; // Kênh nổ WinPanel
+        GameEvents.OnLevelLose += ShowLosePanel; // Kênh nổ LosePanel
     }
     
     private void OnDisable() 
@@ -57,6 +64,7 @@ public class LevelManager : MonoBehaviour
         GameEvents.OnItemsMatched -= HandleShelfCleared;
         GameEvents.OnMoveUsed -= CheckForEmptyShelves;
         GameEvents.OnLevelWin -= ShowWinPanel;
+        GameEvents.OnLevelLose -= ShowLosePanel;
     }
 
     void GenerateLevel()
@@ -208,5 +216,9 @@ public class LevelManager : MonoBehaviour
     private void ShowWinPanel()
     {
         if (winPanelPrefab != null) Instantiate(winPanelPrefab);
+    }
+    private void ShowLosePanel()
+    {
+        if (losePanelPrefab != null) Instantiate(losePanelPrefab);
     }
 }
